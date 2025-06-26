@@ -41,6 +41,16 @@ def reshape_file(path: pathlib.Path, vendor: str):
     long["drug"] = long["drug_raw"].str.replace(r"(_mic$| mic$|_MIC$)", "", regex=True).str.strip()
     long = long.drop(columns="drug_raw")
 
+    long["drug"] = long["drug_raw"].str.replace(r"(_mic$| mic$|_MIC$)", "", regex=True).str.strip()
+    long = long.drop(columns="drug_raw")
+
+    # clean MIC values
+    long["mic"] = pd.to_numeric(long["mic"], errors="coerce")
+    long = long.dropna(subset=["mic"])
+
+    out = PROC_FOLDER / f"{vendor.lower()}_long.parquet"
+    PROC_FOLDER.mkdir(exist_ok=True)
+
     out = PROC_FOLDER / f"{vendor.lower()}_long.parquet"
     PROC_FOLDER.mkdir(exist_ok=True)
     pq.write_table(pa.Table.from_pandas(long), out)
