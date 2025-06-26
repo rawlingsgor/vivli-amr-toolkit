@@ -58,7 +58,7 @@ def normalise(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
     # lowercase + strip + remove unwanted suffixes
-        df["organism"] = (
+    df["organism"] = (
         df["organism"]
         .str.lower().str.strip()
         .str.replace(r",.*$", "", regex=True)        # drop ", mssa" etc.
@@ -67,7 +67,6 @@ def normalise(df: pd.DataFrame) -> pd.DataFrame:
 
 
     # lowercase, strip, drop trivial columns, strip "_mic"
-        # lowercase, strip, strip “_mic”, convert + → /, map abbreviations
     df["drug"] = (
         df["drug"]
         .str.lower().str.strip()
