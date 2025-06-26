@@ -70,12 +70,14 @@ def detect_numeric_mic_cols(df: pd.DataFrame) -> list[str]:
     """Return column names that look like numeric MIC values."""
     numeric_cols = []
     for col in df.columns:
-        if col in CONTEXT_COLS:
+        key = str(col).lower().strip()
+        # skip context columns by lowercase match
+        if key in {"isolate id", "isolate", "age", "species", "organism", "country", "year"}:
             continue
-        # drop paired categorical “_I” / “_S” columns
-        if str(col).rstrip().endswith("_I"):
+        # skip paired categorical “_i” columns
+        if key.endswith("_i"):
             continue
-        # >=70 % entries must coerce to float to qualify
+        # test numeric content
         s = pd.to_numeric(df[col], errors="coerce")
         if (s.notna().sum() / max(len(s), 1)) >= 0.70:
             numeric_cols.append(col)
