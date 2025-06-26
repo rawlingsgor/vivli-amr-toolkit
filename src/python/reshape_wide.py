@@ -56,12 +56,14 @@ RAW_FOLDER  = ROOT / "data" / "raw"
 PROC_FOLDER = ROOT / "data" / "processed"
 
 # context columns we never melt
-
 CONTEXT_COLS = {
-    "Isolate ID", "Isolate",    # cover both column names
-    "Age",                      # drop numeric age
-    "Species", "Organism",
-    "Country", "Year"
+    "Isolate ID",   # original isolate identifier column
+    "Isolate",      # some files name it this way
+    "Age",          # drop age values entirely
+    "Species",
+    "Organism",
+    "Country",
+    "Year"
 }
 
 def detect_numeric_mic_cols(df: pd.DataFrame) -> list[str]:
