@@ -19,9 +19,14 @@ ORGANISM_MAP = {
     "k. pneumoniae": "klebsiella pneumoniae",
 }
 DRUG_MAP = {
-    "cip": "ciprofloxacin",
+    "caz": "ceftazidime",
+    "fep": "cefepime",
+    "gm":  "gentamicin",
     "mem": "meropenem",
+    "tzp": "piperacillin/tazobactam",   # EUCAST uses slash
+    "lvx": "levofloxacin",
 }
+
 
 # ---------------------------------------------------------------------
 def load_breakpoints() -> pd.DataFrame:
@@ -53,30 +58,24 @@ def normalise(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
     # lowercase + strip + remove unwanted suffixes
-    df["organism"] = (
+        df["organism"] = (
         df["organism"]
         .str.lower().str.strip()
-        .str.replace(r"[-].*$", "", regex=True)             # drop complex suffixes
+        .str.replace(r",.*$", "", regex=True)        # drop ", mssa" etc.
         .replace(ORGANISM_MAP)
     )
 
+
     # lowercase, strip, drop trivial columns, strip "_mic"
+        # lowercase, strip, strip “_mic”, convert + → /, map abbreviations
     df["drug"] = (
         df["drug"]
         .str.lower().str.strip()
-        .replace({"isolate": None, "age": None})             # drop these
-        .dropna()
         .str.replace(r"_mic$", "", regex=True)
-        .replace({
-            **DRUG_MAP,
-            "caz": "ceftazidime",
-            "fep": "cefepime",
-            "gm":  "gentamicin",
-            "mem": "meropenem",
-            "tzp": "piperacillin+tazobactam",
-            "lvx": "levofloxacin",
-        })
+        .str.replace("+", "/", regex=False)          # e.g. piperacillin+tazobactam → piperacillin/tazobactam
+        .replace(DRUG_MAP)                           # maps caz, fep, gm, mem, tzp, lvx
     )
+
 
     # ensure isolate_id exists
     if "isolate_id" not in df.columns:
