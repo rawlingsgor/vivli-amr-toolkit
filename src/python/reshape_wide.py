@@ -115,7 +115,9 @@ def reshape_file(path: pathlib.Path, vendor: str) -> int:
 
     PROC_FOLDER.mkdir(exist_ok=True)
     out = PROC_FOLDER / f"{vendor.lower()}_long.parquet"
-    pq.write_table(pa.Table.from_pandas(long), out)
+    long = long.drop(columns=[c for c in long.columns if c.lower()=="age"], errors="ignore")
+
+    pq.write_table(pa.Table.from_pandas(long), out) 
     print(f"[+] {vendor}: wrote {len(long):,} rows to {out}")
     return len(long)
 
