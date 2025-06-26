@@ -1,0 +1,1662 @@
+organism,drug,susceptible_MIC_max,resistant_MIC_min
+Enterobacterales,Benzylpenicillin,,
+Enterobacterales,Ampicillin iv1,8.0,8.0
+Enterobacterales,Ampicillin oral,8.0,8.0
+Enterobacterales,Ampicillin-sulbactam iv1,82.0,82.0
+Enterobacterales,Ampicillin-sulbactam oral,82.0,82.0
+Enterobacterales,Amoxicillin iv1,8.0,8.0
+Enterobacterales,Amoxicillin oral,0.001,8.0
+Enterobacterales,Amoxicillin oral,8.0,8.0
+Enterobacterales,Amoxicillin oral,0.0013,83.0
+Enterobacterales,Amoxicillin-clavulanic acid iv1,84.0,84.0
+Enterobacterales,Amoxicillin-clavulanic acid oral,0.0014,84.0
+Enterobacterales,Amoxicillin-clavulanic acid oral,324.0,324.0
+Enterobacterales,Amoxicillin-clavulanic acid oral,0.00134,834.0
+Enterobacterales,Piperacillin,8.0,8.0
+Enterobacterales,Piperacillin-tazobactam,85.0,85.0
+Enterobacterales,Ticarcillin-clavulanic acid,84.0,164.0
+Enterobacterales,Temocillin,0.001,16.0
+Enterobacterales,Phenoxymethylpenicillin,,
+Enterobacterales,Oxacillin,,
+Enterobacterales,Cloxacillin,,
+Enterobacterales,Dicloxacillin,,
+Enterobacterales,Flucloxacillin,,
+Enterobacterales,Mecillinam oral,86.0,86.0
+Enterobacterales,Cephalosporins1,,
+Enterobacterales,Cefaclor,,
+Enterobacterales,Cefadroxil,16.0,16.0
+Enterobacterales,Cefalexin,16.0,16.0
+Enterobacterales,Cefazolin,0.0012,42.0
+Enterobacterales,Cefepime,1.0,4.0
+Enterobacterales,Cefepime-enmetazobactam,43.0,43.0
+Enterobacterales,Cefiderocol,24.0,24.0
+Enterobacterales,Cefixime,1.0,1.0
+Enterobacterales,Cefotaxime,1.0,2.0
+Enterobacterales,Cefotaxime,1.0,1.0
+Enterobacterales,Cefoxitin,5.0,5.0
+Enterobacterales,Cefpodoxime,1.0,1.0
+Enterobacterales,Ceftaroline,0.5,0.5
+Enterobacterales,Ceftazidime,1.0,4.0
+Enterobacterales,Ceftazidime-avibactam,86.0,86.0
+Enterobacterales,Ceftibuten,1.0,1.0
+Enterobacterales,Ceftobiprole,0.25,0.25
+Enterobacterales,Ceftolozane-tazobactam7,28.0,28.0
+Enterobacterales,Ceftriaxone,1.0,2.0
+Enterobacterales,Ceftriaxone,1.0,1.0
+Enterobacterales,"Cefuroxime iv, E. coli, Klebsiella spp.",0.001,8.0
+Enterobacterales,Cefuroxime oral,8.0,8.0
+Enterobacterales,Carbapenems1,,
+Enterobacterales,Doripenem,1.0,2.0
+Enterobacterales,Ertapenem,0.5,0.5
+Enterobacterales,"Imipenem, Enterobacterales except Morganellaceae",2.0,4.0
+Enterobacterales,"Imipenem2, Morganellaceae",0.001,4.0
+Enterobacterales,"Imipenem-relebactam, Enterobacterales except Morganellaceae",23.0,23.0
+Enterobacterales,Meropenem,2.0,8.0
+Enterobacterales,Meropenem,2.0,2.0
+Enterobacterales,Meropenem-vaborbactam,84.0,84.0
+Enterobacterales,Monobactams,,
+Enterobacterales,Aztreonam1,1.0,4.0
+Enterobacterales,Aztreonam-avibactam,42.0,42.0
+Enterobacterales,Fluoroquinolones,,
+Enterobacterales,"Ciprofloxacin, Salmonella spp.1",0.06,0.06
+Enterobacterales,Ciprofloxacin,0.25,0.5
+Enterobacterales,Ciprofloxacin,0.125,0.125
+Enterobacterales,Pefloxacin,,
+Enterobacterales,"Delafloxacin, E. coli",0.125,0.125
+Enterobacterales,Levofloxacin,0.5,1.0
+Enterobacterales,"Moxifloxacin, Enterobacterales except Morganella morganii, Proteus spp. and Serratia spp.3",0.25,0.25
+Enterobacterales,Nalidixic acid,,
+Enterobacterales,Norfloxacin,0.5,0.5
+Enterobacterales,Ofloxacin,0.25,0.5
+Enterobacterales,Aminoglycosides1,,
+Enterobacterales,Amikacin,81.0,81.0
+Enterobacterales,Amikacin,8.0,8.0
+Enterobacterales,Gentamicin,21.0,21.0
+Enterobacterales,Gentamicin,2.0,2.0
+Enterobacterales,Netilmicin,,
+Enterobacterales,Tobramycin,21.0,21.0
+Enterobacterales,Tobramycin,2.0,2.0
+Enterobacterales,Glycopeptides and lipoglycopeptides,,
+Enterobacterales,Dalbavancin,,
+Enterobacterales,Oritavancin,,
+Enterobacterales,Teicoplanin,,
+Enterobacterales,Telavancin,,
+Enterobacterales,Vancomycin,,
+Enterobacterales,"Macrolides, lincosamides and streptogramins",,
+Enterobacterales,Azithromycin1,1.0,1.0
+Enterobacterales,Clarithromycin,,
+Enterobacterales,Erythromycin,,
+Enterobacterales,Roxithromycin,,
+Enterobacterales,Clindamycin,,
+Enterobacterales,Quinupristin-dalfopristin,,
+Enterobacterales,Tetracyclines,,
+Enterobacterales,Doxycycline,,
+Enterobacterales,"Eravacycline, E. coli",0.5,0.5
+Enterobacterales,Minocycline,,
+Enterobacterales,Tetracycline1,,
+Enterobacterales,"Tigecycline, E. coli and C. koseri",0.523,0.523
+Enterobacterales,Oxazolidinones,,
+Enterobacterales,Linezolid,,
+Enterobacterales,Tedizolid,,
+Enterobacterales,Miscellaneous agents,,
+Enterobacterales,Chloramphenicol,1.0,1.0
+Enterobacterales,Colistin2,23.0,23.0
+Enterobacterales,Daptomycin,,
+Enterobacterales,Fosfomycin iv,84.0,84.0
+Enterobacterales,Fosfomycin iv,5.0,5.0
+Enterobacterales,"Fosfomycin iv, other Enterobacterales",6.0,6.0
+Enterobacterales,Fosfomycin oral,84.0,84.0
+Enterobacterales,Fusidic acid,,
+Enterobacterales,Lefamulin,,
+Enterobacterales,Metronidazole,,
+Enterobacterales,Nitrofurantoin,64.0,64.0
+Enterobacterales,Nitroxoline,16.0,16.0
+Enterobacterales,Rifampicin,,
+Enterobacterales,Spectinomycin,,
+Enterobacterales,Trimethoprim,4.0,4.0
+Enterobacterales,Trimethoprim-sulfamethoxazole7,2.0,4.0
+Enterobacterales,Examples of inhibition zones for Escherichia coli with fosfomycin.,,
+Enterobacterales,a-c) Ignore all colonies and read the outer zone edge.,,
+Enterobacterales,d) Record as no inhibition zone.,,
+Pseudomonas,Benzylpenicillin,,
+Pseudomonas,Ampicillin,,
+Pseudomonas,Ampicillin-sulbactam,,
+Pseudomonas,Amoxicillin,,
+Pseudomonas,Amoxicillin-clavulanic acid,,
+Pseudomonas,Piperacillin,0.001,16.0
+Pseudomonas,Piperacillin-tazobactam,0.0011,161.0
+Pseudomonas,Ticarcillin-clavulanic acid,0.0012,162.0
+Pseudomonas,Temocillin,,
+Pseudomonas,Phenoxymethylpenicillin,,
+Pseudomonas,Oxacillin,,
+Pseudomonas,Cloxacillin,,
+Pseudomonas,Dicloxacillin,,
+Pseudomonas,Flucloxacillin,,
+Pseudomonas,Mecillinam oral,,
+Pseudomonas,Cephalosporins,,
+Pseudomonas,Cefaclor,,
+Pseudomonas,Cefadroxil,,
+Pseudomonas,Cefalexin,,
+Pseudomonas,Cefazolin,,
+Pseudomonas,Cefepime,0.001,8.0
+Pseudomonas,Cefepime-enmetazobactam,1.0,1.0
+Pseudomonas,"Cefiderocol, P. aeruginosa",22.0,22.0
+Pseudomonas,Cefixime,,
+Pseudomonas,Cefotaxime,,
+Pseudomonas,Cefoxitin,,
+Pseudomonas,Cefpodoxime,,
+Pseudomonas,Ceftaroline,,
+Pseudomonas,Ceftazidime,0.001,8.0
+Pseudomonas,"Ceftazidime-avibactam, P. aeruginosa",83.0,83.0
+Pseudomonas,Ceftibuten,,
+Pseudomonas,Ceftobiprole,,
+Pseudomonas,"Ceftolozane-tazobactam4, P. aeruginosa",45.0,45.0
+Pseudomonas,Ceftriaxone,,
+Pseudomonas,Cefuroxime iv,,
+Pseudomonas,Cefuroxime oral,,
+Pseudomonas,Carbapenems,,
+Pseudomonas,Doripenem,0.001,2.0
+Pseudomonas,Ertapenem,,
+Pseudomonas,Imipenem,0.001,4.0
+Pseudomonas,"Imipenem-relebactam, P. aeruginosa",21.0,21.0
+Pseudomonas,Meropenem,2.0,8.0
+Pseudomonas,Meropenem,2.0,8.0
+Pseudomonas,Meropenem,2.0,2.0
+Pseudomonas,"Meropenem-vaborbactam, 
+P. aeruginosa",82.0,82.0
+Pseudomonas,Monobactams,,
+Pseudomonas,Aztreonam,0.001,16.0
+Pseudomonas,Aztreonam-avibactam,,
+Pseudomonas,Fluoroquinolones,,
+Pseudomonas,Ciprofloxacin,0.001,0.5
+Pseudomonas,Delafloxacin,,
+Pseudomonas,Levofloxacin,0.001,2.0
+Pseudomonas,Moxifloxacin,,
+Pseudomonas,Nalidixic acid,,
+Pseudomonas,Norfloxacin,,
+Pseudomonas,Ofloxacin,,
+Pseudomonas,Aminoglycosides1,,
+Pseudomonas,Amikacin,161.0,161.0
+Pseudomonas,Amikacin,16.0,16.0
+Pseudomonas,Gentamicin,,
+Pseudomonas,Gentamicin,,
+Pseudomonas,Netilmicin,,
+Pseudomonas,Tobramycin,21.0,21.0
+Pseudomonas,Tobramycin,2.0,2.0
+Pseudomonas,Glycopeptides and lipoglycopeptides,,
+Pseudomonas,Dalbavancin,,
+Pseudomonas,Oritavancin,,
+Pseudomonas,Teicoplanin,,
+Pseudomonas,Telavancin,,
+Pseudomonas,Vancomycin,,
+Pseudomonas,"Macrolides, lincosamides and streptogramins",,
+Pseudomonas,Azithromycin,,
+Pseudomonas,Clarithromycin,,
+Pseudomonas,Erythromycin,,
+Pseudomonas,Roxithromycin,,
+Pseudomonas,Clindamycin,,
+Pseudomonas,Quinupristin-dalfopristin,,
+Pseudomonas,Tetracyclines,,
+Pseudomonas,Doxycycline,,
+Pseudomonas,Eravacycline,,
+Pseudomonas,Minocycline,,
+Pseudomonas,Tetracycline,,
+Pseudomonas,Tigecycline,,
+Pseudomonas,Oxazolidinones,,
+Pseudomonas,Linezolid,,
+Pseudomonas,Tedizolid,,
+Pseudomonas,Miscellaneous agents,,
+Pseudomonas,Chloramphenicol,,
+Pseudomonas,Colistin1,42.0,42.0
+Pseudomonas,Daptomycin,,
+Pseudomonas,Fosfomycin iv,3.0,3.0
+Pseudomonas,Fosfomycin oral,,
+Pseudomonas,Fusidic acid,,
+Pseudomonas,Lefamulin,,
+Pseudomonas,Metronidazole,,
+Pseudomonas,Nitrofurantoin,,
+Pseudomonas,Nitroxoline,,
+Pseudomonas,Rifampicin,,
+Pseudomonas,Spectinomycin,,
+Pseudomonas,Trimethoprim,,
+Pseudomonas,Trimethoprim-sulfamethoxazole,,
+S.maltophilia,Ceftazidime,,
+S.maltophilia,Cefepime,,
+S.maltophilia,Cefiderocol1,2.0,2.0
+S.maltophilia,Monobactams,,
+S.maltophilia,Aztreonam,,
+S.maltophilia,Aztreonam-avibactam,,
+S.maltophilia,Fluoroquinolones,,
+S.maltophilia,Ciprofloxacin,1.0,1.0
+S.maltophilia,Levofloxacin,1.0,1.0
+S.maltophilia,Tetracyclines,,
+S.maltophilia,Minocycline,12.0,12.0
+S.maltophilia,Tigecycline,1.0,1.0
+S.maltophilia,Miscellaneous agents,,
+S.maltophilia,Trimethoprim-sulfamethoxazole1,0.001,2.0
+S.maltophilia,Examples of inhibition zones for Stenotrophomonas maltophilia with trimethoprim-sulfamethoxazole.,,
+S.maltophilia,a-c) An outer zone can be seen. Read the outer zone edge and interpret according to the breakpoints.,,
+S.maltophilia,d) Growth up to the disk and no sign of inhibition zone. Report resistant.,,
+Acinetobacter,Benzylpenicillin,,
+Acinetobacter,Ampicillin,,
+Acinetobacter,Ampicillin-sulbactam,,
+Acinetobacter,Amoxicillin,,
+Acinetobacter,Amoxicillin-clavulanic acid,,
+Acinetobacter,Piperacillin,,
+Acinetobacter,Piperacillin-tazobactam,,
+Acinetobacter,Ticarcillin-clavulanic acid,,
+Acinetobacter,Temocillin,,
+Acinetobacter,Phenoxymethylpenicillin,,
+Acinetobacter,Oxacillin,,
+Acinetobacter,Cloxacillin,,
+Acinetobacter,Dicloxacillin,,
+Acinetobacter,Flucloxacillin,,
+Acinetobacter,Mecillinam oral,,
+Acinetobacter,Cephalosporins,,
+Acinetobacter,Cefaclor,,
+Acinetobacter,Cefadroxil,,
+Acinetobacter,Cefalexin,,
+Acinetobacter,Cefazolin,,
+Acinetobacter,Cefepime,,
+Acinetobacter,Cefepime-enmetazobactam,,
+Acinetobacter,Cefiderocol1,2.0,2.0
+Acinetobacter,Cefixime,,
+Acinetobacter,Cefotaxime,,
+Acinetobacter,Cefoxitin,,
+Acinetobacter,Cefpodoxime,,
+Acinetobacter,Ceftaroline,,
+Acinetobacter,Ceftazidime,,
+Acinetobacter,Ceftazidime-avibactam,,
+Acinetobacter,Ceftibuten,,
+Acinetobacter,Ceftobiprole,,
+Acinetobacter,Ceftolozane-tazobactam,,
+Acinetobacter,Ceftriaxone,,
+Acinetobacter,Cefuroxime iv,,
+Acinetobacter,Cefuroxime oral,,
+Acinetobacter,Carbapenems,,
+Acinetobacter,Doripenem,0.001,2.0
+Acinetobacter,Ertapenem,,
+Acinetobacter,Imipenem,2.0,4.0
+Acinetobacter,Imipenem-relebactam1,1.0,1.0
+Acinetobacter,Meropenem,2.0,8.0
+Acinetobacter,Meropenem,2.0,2.0
+Acinetobacter,Meropenem-vaborbactam1,1.0,1.0
+Acinetobacter,Monobactams,,
+Acinetobacter,Aztreonam,,
+Acinetobacter,Aztreonam-avibactam,,
+Acinetobacter,Fluoroquinolones,,
+Acinetobacter,Ciprofloxacin,0.001,1.0
+Acinetobacter,Delafloxacin,,
+Acinetobacter,Levofloxacin,0.5,1.0
+Acinetobacter,Moxifloxacin,,
+Acinetobacter,Nalidixic acid,,
+Acinetobacter,Norfloxacin,,
+Acinetobacter,Ofloxacin,,
+Acinetobacter,Aminoglycosides1,,
+Acinetobacter,Amikacin,81.0,81.0
+Acinetobacter,Amikacin,8.0,8.0
+Acinetobacter,Gentamicin,41.0,41.0
+Acinetobacter,Gentamicin,4.0,4.0
+Acinetobacter,Netilmicin,,
+Acinetobacter,Tobramycin,41.0,41.0
+Acinetobacter,Tobramycin,4.0,4.0
+Acinetobacter,Glycopeptides and lipoglycopeptides,,
+Acinetobacter,Dalbavancin,,
+Acinetobacter,Oritavancin,,
+Acinetobacter,Teicoplanin,,
+Acinetobacter,Telavancin,,
+Acinetobacter,Vancomycin,,
+Acinetobacter,"Macrolides, lincosamides and streptogramins",,
+Acinetobacter,Azithromycin,,
+Acinetobacter,Clarithromycin,,
+Acinetobacter,Erythromycin,,
+Acinetobacter,Roxithromycin,,
+Acinetobacter,Clindamycin,,
+Acinetobacter,Quinupristin-dalfopristin,,
+Acinetobacter,Tetracyclines,,
+Acinetobacter,Doxycycline,,
+Acinetobacter,Eravacycline,,
+Acinetobacter,Minocycline,1.0,1.0
+Acinetobacter,Tetracycline,,
+Acinetobacter,Tigecycline,,
+Acinetobacter,Oxazolidinones,,
+Acinetobacter,Linezolid,,
+Acinetobacter,Tedizolid,,
+Acinetobacter,Miscellaneous agents,,
+Acinetobacter,Chloramphenicol,,
+Acinetobacter,Colistin1,22.0,22.0
+Acinetobacter,Daptomycin,,
+Acinetobacter,Fosfomycin iv,3.0,3.0
+Acinetobacter,Fosfomycin oral,,
+Acinetobacter,Fusidic acid,,
+Acinetobacter,Lefamulin,,
+Acinetobacter,Metronidazole,,
+Acinetobacter,Nitrofurantoin,,
+Acinetobacter,Nitroxoline,,
+Acinetobacter,Rifampicin,,
+Acinetobacter,Spectinomycin,,
+Acinetobacter,Trimethoprim,,
+Acinetobacter,Trimethoprim-sulfamethoxazole4,2.0,4.0
+Staphylococcus,"Benzylpenicillin, S. aureus",0.1251,0.1251
+Staphylococcus,"Benzylpenicillin, S. lugdunensis",0.125,0.125
+Staphylococcus,"Benzylpenicillin, other staphylococci",2.0,2.0
+Staphylococcus,"Ampicillin, S. saprophyticus",23.0,23.0
+Staphylococcus,Ampicillin-sulbactam,123.0,123.0
+Staphylococcus,Amoxicillin,123.0,123.0
+Staphylococcus,Amoxicillin-clavulanic acid,123.0,123.0
+Staphylococcus,Piperacillin,123.0,123.0
+Staphylococcus,Piperacillin-tazobactam,123.0,123.0
+Staphylococcus,Ticarcillin-clavulanic acid,12.0,12.0
+Staphylococcus,Temocillin,,
+Staphylococcus,"Phenoxymethylpenicillin, S. aureus",1.0,1.0
+Staphylococcus,"Phenoxymethylpenicillin, 
+Coagulase-negative staphylococci",2.0,2.0
+Staphylococcus,Oxacillin,,
+Staphylococcus,"Oxacillin4, other staphylococci",14.0,14.0
+Staphylococcus,Cloxacillin,12.0,12.0
+Staphylococcus,Dicloxacillin,12.0,12.0
+Staphylococcus,Flucloxacillin,12.0,12.0
+Staphylococcus,Mecillinam oral,,
+Staphylococcus,Cephalosporins1,,
+Staphylococcus,Cefaclor2,1.0,1.0
+Staphylococcus,Cefadroxil,1.0,1.0
+Staphylococcus,Cefalexin,1.0,1.0
+Staphylococcus,Cefazolin2,1.0,1.0
+Staphylococcus,Cefepime2,1.0,1.0
+Staphylococcus,Cefepime-enmetazobactam3,1.0,1.0
+Staphylococcus,Cefiderocol,,
+Staphylococcus,Cefixime,,
+Staphylococcus,Cefotaxime2,1.0,1.0
+Staphylococcus,Cefoxitin,45.0,45.0
+Staphylococcus,Cefoxitin,45.0,45.0
+Staphylococcus,Cefoxitin,6.0,6.0
+Staphylococcus,Cefpodoxime,1.0,1.0
+Staphylococcus,Ceftaroline,17.0,278.0
+Staphylococcus,Ceftaroline,17.0,17.0
+Staphylococcus,Ceftazidime,,
+Staphylococcus,Ceftazidime-avibactam,,
+Staphylococcus,Ceftibuten,,
+Staphylococcus,"Ceftobiprole, S. aureus",29.0,29.0
+Staphylococcus,Ceftolozane-tazobactam,,
+Staphylococcus,Ceftriaxone2,1.0,1.0
+Staphylococcus,Cefuroxime iv2,1.0,1.0
+Staphylococcus,Cefuroxime oral,1.0,1.0
+Staphylococcus,Carbapenems1,,
+Staphylococcus,Doripenem,1.0,1.0
+Staphylococcus,Ertapenem,1.0,1.0
+Staphylococcus,Imipenem,1.0,1.0
+Staphylococcus,Imipenem-relebactam2,1.0,1.0
+Staphylococcus,Meropenem,1.0,1.0
+Staphylococcus,Meropenem-vaborbactam2,1.0,1.0
+Staphylococcus,Monobactams,,
+Staphylococcus,Aztreonam,,
+Staphylococcus,Aztreonam-avibactam,,
+Staphylococcus,Fluoroquinolones1,,
+Staphylococcus,"Ciprofloxacin, S. aureus",0.0012,22.0
+Staphylococcus,"Ciprofloxacin, 
+Coagulase-negative staphylococci",0.0012,22.0
+Staphylococcus,Delafloxacin,0.016,0.016
+Staphylococcus,Delafloxacin,0.25,0.25
+Staphylococcus,"Levofloxacin, S. aureus",0.001,1.0
+Staphylococcus,"Levofloxacin, 
+Coagulase-negative staphylococci",0.001,1.0
+Staphylococcus,"Moxifloxacin3, S. aureus",0.25,0.25
+Staphylococcus,"Moxifloxacin3, 
+Coagulase-negative staphylococci",0.25,0.25
+Staphylococcus,Nalidixic acid,,
+Staphylococcus,Norfloxacin,,
+Staphylococcus,Ofloxacin,3.0,3.0
+Staphylococcus,Aminoglycosides1,,
+Staphylococcus,"Amikacin, S. aureus",161.0,161.0
+Staphylococcus,"Amikacin, 
+Coagulase-negative staphylococci",161.0,161.0
+Staphylococcus,"Gentamicin, S. aureus",21.0,21.0
+Staphylococcus,"Gentamicin,
+Coagulase-negative staphylococci",21.0,21.0
+Staphylococcus,Netilmicin,,
+Staphylococcus,"Tobramycin, S. aureus",21.0,21.0
+Staphylococcus,"Tobramycin, 
+Coagulase-negative staphylococci",21.0,21.0
+Staphylococcus,Glycopeptides and lipoglycopeptides1,,
+Staphylococcus,Dalbavancin2,0.253,0.253
+Staphylococcus,"Oritavancin2, S. aureus",0.1253,0.1253
+Staphylococcus,"Teicoplanin2, S. aureus",2.0,2.0
+Staphylococcus,"Teicoplanin, 
+Coagulase-negative staphylococci",4.0,4.0
+Staphylococcus,"Telavancin2, MRSA",0.1253,0.1253
+Staphylococcus,"Vancomycin2, S. aureus",2.0,2.0
+Staphylococcus,"Vancomycin2, 
+Coagulase-negative staphylococci",4.0,4.0
+Staphylococcus,"Macrolides, lincosamides and streptogramins",,
+Staphylococcus,Azithromycin,21.0,21.0
+Staphylococcus,Clarithromycin,11.0,11.0
+Staphylococcus,Erythromycin,11.0,11.0
+Staphylococcus,Roxithromycin,11.0,11.0
+Staphylococcus,Clindamycin2,0.25,0.25
+Staphylococcus,Quinupristin-dalfopristin,1.0,1.0
+Staphylococcus,Tetracyclines,,
+Staphylococcus,Doxycycline,11.0,11.0
+Staphylococcus,"Eravacycline, S. aureus",0.25,0.25
+Staphylococcus,Minocycline,0.51,0.51
+Staphylococcus,Tetracycline,11.0,11.0
+Staphylococcus,Tigecycline2,0.53,0.53
+Staphylococcus,Oxazolidinones,,
+Staphylococcus,Linezolid,4.0,4.0
+Staphylococcus,Tedizolid,0.51,0.5
+Staphylococcus,Miscellaneous agents,,
+Staphylococcus,Chloramphenicol,,
+Staphylococcus,Colistin,,
+Staphylococcus,Daptomycin1,12.0,12.0
+Staphylococcus,Fosfomycin iv,3.0,3.0
+Staphylococcus,Fosfomycin oral,,
+Staphylococcus,Fusidic acid,1.0,1.0
+Staphylococcus,"Lefamulin, S. aureus",0.25,0.25
+Staphylococcus,Metronidazole,,
+Staphylococcus,Nitrofurantoin,64.0,64.0
+Staphylococcus,Nitroxoline,,
+Staphylococcus,"Rifampicin, S. aureus",0.06,0.06
+Staphylococcus,"Rifampicin, Coagulase-negative staphylococci",0.06,0.06
+Staphylococcus,Spectinomycin,,
+Staphylococcus,Trimethoprim,4.0,4.0
+Staphylococcus,Trimethoprim-sulfamethoxazole4,2.0,4.0
+Staphylococcus,Examples of inhibition zones for Staphylococcus aureus with benzylpenicillin.,,
+Staphylococcus,a) Fuzzy zone edge,,
+Staphylococcus,b) Sharp zone edge,,
+Enterococcus,Benzylpenicillin,,
+Enterococcus,Ampicillin iv,4.0,4.0
+Enterococcus,Ampicillin-sulbactam iv2,1.0,1.0
+Enterococcus,Amoxicillin iv,41.0,41.0
+Enterococcus,Amoxicillin oral,41.0,41.0
+Enterococcus,Amoxicillin oral,0.00134,434.0
+Enterococcus,Amoxicillin-clavulanic acid iv2,1.0,1.0
+Enterococcus,Amoxicillin-clavulanic acid oral2,1.0,1.0
+Enterococcus,Amoxicillin-clavulanic acid oral2,34.0,34.0
+Enterococcus,"Piperacillin, E. faecalis",0.001,16.0
+Enterococcus,"Piperacillin-tazobactam2, E. faecalis",0.0015,165.0
+Enterococcus,Ticarcillin-clavulanic acid,,
+Enterococcus,Temocillin,,
+Enterococcus,Phenoxymethylpenicillin,,
+Enterococcus,Oxacillin,,
+Enterococcus,Cloxacillin,,
+Enterococcus,Dicloxacillin,,
+Enterococcus,Flucloxacillin,,
+Enterococcus,Mecillinam oral,,
+Enterococcus,Cephalosporins,,
+Enterococcus,Cefaclor,,
+Enterococcus,Cefadroxil,,
+Enterococcus,Cefalexin,,
+Enterococcus,Cefazolin,,
+Enterococcus,Cefepime,,
+Enterococcus,Cefepime-enmetazobactam,,
+Enterococcus,Cefiderocol,,
+Enterococcus,Cefixime,,
+Enterococcus,Cefotaxime,,
+Enterococcus,Cefoxitin,,
+Enterococcus,Cefpodoxime,,
+Enterococcus,Ceftaroline,,
+Enterococcus,Ceftazidime,,
+Enterococcus,Ceftazidime-avibactam,,
+Enterococcus,Ceftibuten,,
+Enterococcus,Ceftobiprole,,
+Enterococcus,Ceftolozane-tazobactam,,
+Enterococcus,Ceftriaxone,,
+Enterococcus,Cefuroxime iv,,
+Enterococcus,Cefuroxime oral,,
+Enterococcus,Carbapenems,,
+Enterococcus,Doripenem,,
+Enterococcus,Ertapenem,,
+Enterococcus,"Imipenem, E. faecalis",0.001,4.0
+Enterococcus,Imipenem-relebactam,,
+Enterococcus,Meropenem,,
+Enterococcus,Meropenem-vaborbactam,,
+Enterococcus,Monobactams,,
+Enterococcus,Aztreonam,,
+Enterococcus,Aztreonam-avibactam,,
+Enterococcus,Fluoroquinolones,,
+Enterococcus,Ciprofloxacin,4.0,4.0
+Enterococcus,Delafloxacin,,
+Enterococcus,Levofloxacin,4.0,4.0
+Enterococcus,Moxifloxacin,1.0,1.0
+Enterococcus,Nalidixic acid,,
+Enterococcus,Norfloxacin,,
+Enterococcus,Ofloxacin,,
+Enterococcus,Aminoglycosides1,,
+Enterococcus,Amikacin,2.0,2.0
+Enterococcus,Gentamicin,2.0,2.0
+Enterococcus,Netilmicin,2.0,2.0
+Enterococcus,Streptomycin,3.0,3.0
+Enterococcus,Tobramycin,2.0,2.0
+Enterococcus,Glycopeptides and lipoglycopeptides,,
+Enterococcus,Dalbavancin,,
+Enterococcus,Oritavancin,,
+Enterococcus,Teicoplanin,2.0,2.0
+Enterococcus,Telavancin,,
+Enterococcus,"Vancomycin, E. faecalis and E. faecium",4.0,4.0
+Enterococcus,"Vancomycin, E. casseliflavus and E. gallinarum",,
+Enterococcus,"Vancomycin, other enterococci",4.0,4.0
+Enterococcus,"Macrolides, lincosamides and streptogramins",,
+Enterococcus,Azithromycin,,
+Enterococcus,Clarithromycin,,
+Enterococcus,Erythromycin,,
+Enterococcus,Roxithromycin,,
+Enterococcus,Clindamycin,,
+Enterococcus,"Quinupristin-dalfopristin, E. faecium",1.0,1.0
+Enterococcus,Tetracyclines,,
+Enterococcus,Doxycycline,,
+Enterococcus,Eravacycline,0.25,0.25
+Enterococcus,Minocycline,,
+Enterococcus,Tetracycline,,
+Enterococcus,Tigecycline1,0.52,0.52
+Enterococcus,Oxazolidinones,,
+Enterococcus,Linezolid,4.0,4.0
+Enterococcus,Tedizolid,,
+Enterococcus,Miscellaneous agents,,
+Enterococcus,Chloramphenicol,,
+Enterococcus,Colistin,,
+Enterococcus,Daptomycin1,,
+Enterococcus,Fosfomycin iv,2.0,2.0
+Enterococcus,Fosfomycin oral,,
+Enterococcus,Fusidic acid,,
+Enterococcus,Lefamulin,3.0,3.0
+Enterococcus,Metronidazole,,
+Enterococcus,Nitrofurantoin,64.0,64.0
+Enterococcus,Nitroxoline,,
+Enterococcus,Rifampicin,,
+Enterococcus,Spectinomycin,,
+Enterococcus,Trimethoprim,4.0,4.0
+Enterococcus,Trimethoprim-sulfamethoxazole5,4.0,4.0
+Enterococcus,Examples of inhibition zones for Enterococcus faecalis and E. faecium with vancomycin.,,
+Enterococcus,a) Sharp zone edge and zone diameter ≥ 12 mm. Report susceptible.,,
+Enterococcus,b-d) Fuzzy zone edge or colonies within zone. Perform confirmatory testing with PCR or report resistant even if the zone diameter ≥ 12 mm.,,
+"Streptococcus A,B,C,G","Benzylpenicillin2, Streptococcus groups A, C and G",0.03,0.03
+"Streptococcus A,B,C,G","Benzylpenicillin2,  
+S. agalactiae",0.125,0.125
+"Streptococcus A,B,C,G",Ampicillin,1.0,1.0
+"Streptococcus A,B,C,G",Ampicillin-sulbactam3,1.0,1.0
+"Streptococcus A,B,C,G",Amoxicillin,1.0,1.0
+"Streptococcus A,B,C,G",Amoxicillin-clavulanic acid3,1.0,1.0
+"Streptococcus A,B,C,G",Piperacillin,1.0,1.0
+"Streptococcus A,B,C,G",Piperacillin-tazobactam3,1.0,1.0
+"Streptococcus A,B,C,G",Ticarcillin-clavulanic acid,,
+"Streptococcus A,B,C,G",Temocillin,,
+"Streptococcus A,B,C,G","Phenoxymethylpenicillin
+Streptococcus groups A, C and G",1.0,1.0
+"Streptococcus A,B,C,G","Oxacillin 
+Streptococcus groups A, C and G",1.0,1.0
+"Streptococcus A,B,C,G","Cloxacillin
+Streptococcus groups A, C and G",1.0,1.0
+"Streptococcus A,B,C,G","Dicloxacillin
+Streptococcus groups A, C and G",1.0,1.0
+"Streptococcus A,B,C,G","Flucloxacillin 
+Streptococcus groups A, C and G",1.0,1.0
+"Streptococcus A,B,C,G",Mecillinam oral,,
+"Streptococcus A,B,C,G",Cephalosporins1,,
+"Streptococcus A,B,C,G",Cefaclor,1.0,1.0
+"Streptococcus A,B,C,G",Cefadroxil,1.0,1.0
+"Streptococcus A,B,C,G",Cefalexin,1.0,1.0
+"Streptococcus A,B,C,G",Cefazolin,1.0,1.0
+"Streptococcus A,B,C,G",Cefepime,1.0,1.0
+"Streptococcus A,B,C,G",Cefepime-enmetazobactam2,2.0,2.0
+"Streptococcus A,B,C,G",Cefiderocol,,
+"Streptococcus A,B,C,G",Cefixime,,
+"Streptococcus A,B,C,G",Cefotaxime,1.0,1.0
+"Streptococcus A,B,C,G",Cefoxitin,,
+"Streptococcus A,B,C,G",Cefpodoxime,1.0,1.0
+"Streptococcus A,B,C,G",Ceftaroline,1.0,1.0
+"Streptococcus A,B,C,G",Ceftazidime,,
+"Streptococcus A,B,C,G",Ceftazidime-avibactam,,
+"Streptococcus A,B,C,G",Ceftibuten,1.0,1.0
+"Streptococcus A,B,C,G",Ceftobiprole,,
+"Streptococcus A,B,C,G",Ceftolozane-tazobactam2,,
+"Streptococcus A,B,C,G",Ceftriaxone,1.0,1.0
+"Streptococcus A,B,C,G",Cefuroxime iv,1.0,1.0
+"Streptococcus A,B,C,G",Cefuroxime oral,1.0,1.0
+"Streptococcus A,B,C,G",Carbapenems1,,
+"Streptococcus A,B,C,G",Doripenem,1.0,1.0
+"Streptococcus A,B,C,G",Ertapenem,1.0,1.0
+"Streptococcus A,B,C,G",Imipenem,1.0,1.0
+"Streptococcus A,B,C,G",Imipenem-relebactam2,2.0,2.0
+"Streptococcus A,B,C,G",Meropenem,1.0,1.0
+"Streptococcus A,B,C,G",Meropenem-vaborbactam2,2.0,2.0
+"Streptococcus A,B,C,G",Monobactams,,
+"Streptococcus A,B,C,G",Aztreonam,,
+"Streptococcus A,B,C,G",Aztreonam-avibactam,,
+"Streptococcus A,B,C,G",Fluoroquinolones,,
+"Streptococcus A,B,C,G",Ciprofloxacin,,
+"Streptococcus A,B,C,G",Delafloxacin,0.03,0.03
+"Streptococcus A,B,C,G",Levofloxacin,0.001,2.0
+"Streptococcus A,B,C,G",Moxifloxacin,0.5,0.5
+"Streptococcus A,B,C,G",Nalidixic acid,,
+"Streptococcus A,B,C,G",Norfloxacin,,
+"Streptococcus A,B,C,G",Ofloxacin,,
+"Streptococcus A,B,C,G",Aminoglycosides,,
+"Streptococcus A,B,C,G",Amikacin,,
+"Streptococcus A,B,C,G",Gentamicin,,
+"Streptococcus A,B,C,G",Netilmicin,,
+"Streptococcus A,B,C,G",Tobramycin,,
+"Streptococcus A,B,C,G",Glycopeptides and lipoglycopeptides,,
+"Streptococcus A,B,C,G",Dalbavancin1,0.12523,0.1252
+"Streptococcus A,B,C,G",Oritavancin1,0.2523,0.252
+"Streptococcus A,B,C,G",Teicoplanin1,2.0,2.0
+"Streptococcus A,B,C,G",Telavancin,,
+"Streptococcus A,B,C,G",Vancomycin1,2.0,2.0
+"Streptococcus A,B,C,G","Macrolides, lincosamides and streptogramins",,
+"Streptococcus A,B,C,G",Azithromycin,0.251,0.251
+"Streptococcus A,B,C,G",Clarithromycin,0.251,0.251
+"Streptococcus A,B,C,G",Erythromycin,0.251,0.251
+"Streptococcus A,B,C,G",Roxithromycin,0.51,0.51
+"Streptococcus A,B,C,G",Clindamycin2,0.5,0.5
+"Streptococcus A,B,C,G",Quinupristin-dalfopristin,,
+"Streptococcus A,B,C,G",Tetracyclines,,
+"Streptococcus A,B,C,G",Doxycycline,11.0,11.0
+"Streptococcus A,B,C,G",Eravacycline,,
+"Streptococcus A,B,C,G",Minocycline,0.51,0.51
+"Streptococcus A,B,C,G",Tetracycline,11.0,11.0
+"Streptococcus A,B,C,G",Tigecycline2,0.1253,0.1253
+"Streptococcus A,B,C,G",Oxazolidinones,,
+"Streptococcus A,B,C,G",Linezolid1,2.0,2.0
+"Streptococcus A,B,C,G",Tedizolid1,0.52,0.5
+"Streptococcus A,B,C,G",Miscellaneous agents,,
+"Streptococcus A,B,C,G",Chloramphenicol,,
+"Streptococcus A,B,C,G",Colistin,,
+"Streptococcus A,B,C,G",Daptomycin1,12.0,12.0
+"Streptococcus A,B,C,G",Fosfomycin iv,,
+"Streptococcus A,B,C,G",Fosfomycin oral,,
+"Streptococcus A,B,C,G",Fusidic acid,,
+"Streptococcus A,B,C,G",Lefamulin,,
+"Streptococcus A,B,C,G",Metronidazole,,
+"Streptococcus A,B,C,G",Nitrofurantoin,64.0,64.0
+"Streptococcus A,B,C,G",Nitroxoline,,
+"Streptococcus A,B,C,G",Rifampicin,0.25,0.25
+"Streptococcus A,B,C,G",Spectinomycin,,
+"Streptococcus A,B,C,G",Trimethoprim,3.0,3.0
+"Streptococcus A,B,C,G",Trimethoprim-sulfamethoxazole4,1.0,2.0
+S.pneumoniae,Benzylpenicillin,0.06,1.0
+S.pneumoniae,Benzylpenicillin,0.06,0.06
+S.pneumoniae,Ampicillin,0.5,1.0
+S.pneumoniae,Ampicillin iv,0.5,0.5
+S.pneumoniae,Ampicillin-sulbactam2,13.0,13.0
+S.pneumoniae,Amoxicillin iv,13.0,13.0
+S.pneumoniae,Amoxicillin iv,0.5,0.5
+S.pneumoniae,Amoxicillin oral,0.5,1.0
+S.pneumoniae,Amoxicillin-clavulanic acid iv2,13.0,13.0
+S.pneumoniae,Amoxicillin-clavulanic acid oral2,0.54,14.0
+S.pneumoniae,Piperacillin,13.0,13.0
+S.pneumoniae,Piperacillin-tazobactam2,13.0,13.0
+S.pneumoniae,Ticarcillin-clavulanic acid,,
+S.pneumoniae,Temocillin,,
+S.pneumoniae,Phenoxymethylpenicillin,1.0,1.0
+S.pneumoniae,Oxacillin,,
+S.pneumoniae,Oxacillin,,
+S.pneumoniae,Cloxacillin,,
+S.pneumoniae,Dicloxacillin,,
+S.pneumoniae,Flucloxacillin,,
+S.pneumoniae,Mecillinam oral,,
+S.pneumoniae,Cephalosporins1,,
+S.pneumoniae,Cefaclor,0.001,0.5
+S.pneumoniae,Cefadroxil,,
+S.pneumoniae,Cefalexin,,
+S.pneumoniae,Cefazolin,,
+S.pneumoniae,Cefepime,1.0,2.0
+S.pneumoniae,Cefepime-enmetazobactam2,2.0,2.0
+S.pneumoniae,Cefiderocol,,
+S.pneumoniae,Cefixime,,
+S.pneumoniae,Cefotaxime,0.5,2.0
+S.pneumoniae,Cefotaxime,0.5,0.5
+S.pneumoniae,Cefoxitin,,
+S.pneumoniae,Cefpodoxime,0.25,0.25
+S.pneumoniae,Ceftaroline,0.25,0.25
+S.pneumoniae,Ceftazidime,,
+S.pneumoniae,Ceftazidime-avibactam,,
+S.pneumoniae,Ceftibuten,,
+S.pneumoniae,Ceftobiprole,0.5,0.5
+S.pneumoniae,Ceftolozane-tazobactam,,
+S.pneumoniae,Ceftriaxone,0.5,2.0
+S.pneumoniae,Ceftriaxone,0.5,0.5
+S.pneumoniae,Cefuroxime iv,0.5,1.0
+S.pneumoniae,Cefuroxime oral,0.25,0.25
+S.pneumoniae,"Carbapenems1,2",,
+S.pneumoniae,Doripenem,1.0,1.0
+S.pneumoniae,Ertapenem,0.5,0.5
+S.pneumoniae,Imipenem,2.0,2.0
+S.pneumoniae,Imipenem-relebactam3,3.0,3.0
+S.pneumoniae,Meropenem,2.0,2.0
+S.pneumoniae,Meropenem,0.25,0.25
+S.pneumoniae,Meropenem-vaborbactam3,3.0,3.0
+S.pneumoniae,,,
+S.pneumoniae,Monobactams,,
+S.pneumoniae,Aztreonam,,
+S.pneumoniae,Aztreonam-avibactam,,
+S.pneumoniae,Fluoroquinolones,,
+S.pneumoniae,Ciprofloxacin,,
+S.pneumoniae,Delafloxacin,,
+S.pneumoniae,Levofloxacin,0.001,2.0
+S.pneumoniae,Moxifloxacin,0.5,0.5
+S.pneumoniae,Nalidixic acid,,
+S.pneumoniae,Norfloxacin,,
+S.pneumoniae,Ofloxacin,,
+S.pneumoniae,Aminoglycosides,,
+S.pneumoniae,Amikacin,,
+S.pneumoniae,Gentamicin,,
+S.pneumoniae,Netilmicin,,
+S.pneumoniae,Tobramycin,,
+S.pneumoniae,Glycopeptides and lipoglycopeptides,,
+S.pneumoniae,Dalbavancin,,
+S.pneumoniae,Oritavancin,,
+S.pneumoniae,Teicoplanin1,2.0,2.0
+S.pneumoniae,Telavancin,,
+S.pneumoniae,Vancomycin1,2.0,2.0
+S.pneumoniae,"Macrolides, lincosamides and streptogramins",,
+S.pneumoniae,Azithromycin,0.251,0.251
+S.pneumoniae,Clarithromycin,0.251,0.251
+S.pneumoniae,Erythromycin,0.251,0.251
+S.pneumoniae,Roxithromycin,0.51,0.51
+S.pneumoniae,Clindamycin2,0.5,0.5
+S.pneumoniae,Quinupristin-dalfopristin,,
+S.pneumoniae,Tetracyclines,,
+S.pneumoniae,Doxycycline,11.0,11.0
+S.pneumoniae,Eravacycline,,
+S.pneumoniae,Minocycline,0.51,0.51
+S.pneumoniae,Tetracycline,11.0,11.0
+S.pneumoniae,Tigecycline,,
+S.pneumoniae,Oxazolidinones,,
+S.pneumoniae,Linezolid,2.0,2.0
+S.pneumoniae,Tedizolid,,
+S.pneumoniae,Miscellaneous agents,,
+S.pneumoniae,Chloramphenicol1,1.0,1.0
+S.pneumoniae,Colistin,,
+S.pneumoniae,Daptomycin,,
+S.pneumoniae,Fosfomycin iv,,
+S.pneumoniae,Fosfomycin oral,,
+S.pneumoniae,Fusidic acid,,
+S.pneumoniae,Lefamulin,0.5,0.5
+S.pneumoniae,Metronidazole,,
+S.pneumoniae,Nitrofurantoin,,
+S.pneumoniae,Nitroxoline,,
+S.pneumoniae,Rifampicin,0.125,0.125
+S.pneumoniae,Spectinomycin,,
+S.pneumoniae,Trimethoprim,,
+S.pneumoniae,Trimethoprim-sulfamethoxazole2,1.0,2.0
+Viridans group streptococci,Benzylpenicillin,0.251,0.251
+Viridans group streptococci,Benzylpenicillin,0.25,1.0
+Viridans group streptococci,Benzylpenicillin,0.25,0.25
+Viridans group streptococci,Benzylpenicillin,12.0,12.0
+Viridans group streptococci,Ampicillin,0.5,2.0
+Viridans group streptococci,Ampicillin iv,0.5,0.5
+Viridans group streptococci,Ampicillin-sulbactam3,14.0,14.0
+Viridans group streptococci,Amoxicillin,0.5,2.0
+Viridans group streptococci,Amoxicillin iv,0.5,0.5
+Viridans group streptococci,Amoxicillin-clavulanic acid3,14.0,14.0
+Viridans group streptococci,Piperacillin,14.0,14.0
+Viridans group streptococci,Piperacillin-tazobactam3,14.0,14.0
+Viridans group streptococci,Ticarcillin-clavulanic acid3,,
+Viridans group streptococci,Temocillin,,
+Viridans group streptococci,Phenoxymethylpenicillin,,
+Viridans group streptococci,Oxacillin,,
+Viridans group streptococci,Cloxacillin,,
+Viridans group streptococci,Dicloxacillin,,
+Viridans group streptococci,Flucloxacillin,,
+Viridans group streptococci,Mecillinam oral,,
+Viridans group streptococci,Cephalosporins,,
+Viridans group streptococci,Cefaclor,,
+Viridans group streptococci,Cefadroxil,,
+Viridans group streptococci,Cefalexin,,
+Viridans group streptococci,Cefazolin,,
+Viridans group streptococci,Cefepime,0.5,0.5
+Viridans group streptococci,Cefepime-enmetazobactam1,1.0,1.0
+Viridans group streptococci,Cefiderocol,,
+Viridans group streptococci,Cefixime,,
+Viridans group streptococci,Cefotaxime,0.5,0.5
+Viridans group streptococci,Cefoxitin,,
+Viridans group streptococci,Cefpodoxime,,
+Viridans group streptococci,Ceftaroline,,
+Viridans group streptococci,Ceftazidime,,
+Viridans group streptococci,Ceftazidime-avibactam,,
+Viridans group streptococci,Ceftibuten,,
+Viridans group streptococci,Ceftobiprole,,
+Viridans group streptococci,"Ceftolozane-tazobactam1, S. anginosus group",,
+Viridans group streptococci,Ceftriaxone,0.5,0.5
+Viridans group streptococci,Cefuroxime iv,0.5,0.5
+Viridans group streptococci,Cefuroxime oral,,
+Viridans group streptococci,Carbapenems,,
+Viridans group streptococci,Doripenem,1.0,1.0
+Viridans group streptococci,Ertapenem,0.5,0.5
+Viridans group streptococci,Imipenem,2.0,2.0
+Viridans group streptococci,Imipenem-relebactam2,21.0,21.0
+Viridans group streptococci,Meropenem,2.0,2.0
+Viridans group streptococci,Meropenem-vaborbactam2,2.0,2.0
+Viridans group streptococci,Monobactams,,
+Viridans group streptococci,Aztreonam,,
+Viridans group streptococci,Aztreonam-avibactam,,
+Viridans group streptococci,Fluoroquinolones,,
+Viridans group streptococci,Ciprofloxacin,,
+Viridans group streptococci,"Delafloxacin, S. anginosus group",0.03,0.03
+Viridans group streptococci,Levofloxacin,,
+Viridans group streptococci,Moxifloxacin,1.0,1.0
+Viridans group streptococci,Nalidixic acid,,
+Viridans group streptococci,Norfloxacin,,
+Viridans group streptococci,Ofloxacin,,
+Viridans group streptococci,Aminoglycosides1,,
+Viridans group streptococci,Amikacin,2.0,2.0
+Viridans group streptococci,Gentamicin,2.0,2.0
+Viridans group streptococci,Netilmicin,2.0,2.0
+Viridans group streptococci,Tobramycin,2.0,2.0
+Viridans group streptococci,Glycopeptides and lipoglycopeptides,,
+Viridans group streptococci,"Dalbavancin1, S. anginosus group",0.12523,0.1252
+Viridans group streptococci,"Oritavancin1, S. anginosus group",0.2523,0.252
+Viridans group streptococci,Teicoplanin1,2.0,2.0
+Viridans group streptococci,Telavancin,,
+Viridans group streptococci,Vancomycin1,2.0,2.0
+Viridans group streptococci,"Macrolides, lincosamides and streptogramins",,
+Viridans group streptococci,Azithromycin,,
+Viridans group streptococci,Clarithromycin,,
+Viridans group streptococci,Erythromycin,,
+Viridans group streptococci,Roxithromycin,,
+Viridans group streptococci,Clindamycin1,0.5,0.5
+Viridans group streptococci,Quinupristin-dalfopristin,,
+Viridans group streptococci,Tetracyclines,,
+Viridans group streptococci,Doxycycline,,
+Viridans group streptococci,Eravacycline,0.125,0.125
+Viridans group streptococci,Minocycline,,
+Viridans group streptococci,Tetracycline,,
+Viridans group streptococci,Tigecycline,,
+Viridans group streptococci,Oxazolidinones,,
+Viridans group streptococci,Linezolid,1.0,1.0
+Viridans group streptococci,"Tedizolid, S. anginosus group",0.5,0.5
+Viridans group streptococci,Miscellaneous agents,,
+Viridans group streptococci,Chloramphenicol,,
+Viridans group streptococci,Colistin,,
+Viridans group streptococci,Daptomycin,,
+Viridans group streptococci,Fosfomycin iv,,
+Viridans group streptococci,Fosfomycin oral,,
+Viridans group streptococci,Fusidic acid,,
+Viridans group streptococci,Lefamulin,,
+Viridans group streptococci,Metronidazole,,
+Viridans group streptococci,Nitrofurantoin,,
+Viridans group streptococci,Nitroxoline,,
+Viridans group streptococci,Rifampicin,1.0,1.0
+Viridans group streptococci,Spectinomycin,,
+Viridans group streptococci,Trimethoprim,,
+Viridans group streptococci,Trimethoprim-sulfamethoxazole,,
+H.influenzae,Benzylpenicillin,,
+H.influenzae,Benzylpenicillin,,
+H.influenzae,Ampicillin,1.0,1.0
+H.influenzae,Ampicillin iv,,
+H.influenzae,Ampicillin-sulbactam,134.0,134.0
+H.influenzae,Amoxicillin iv,2.0,2.0
+H.influenzae,Amoxicillin iv,,
+H.influenzae,Amoxicillin oral2,0.001,2.0
+H.influenzae,Amoxicillin-clavulanic acid iv,25.0,25.0
+H.influenzae,Amoxicillin-clavulanic acid oral,0.0015,25.0
+H.influenzae,Piperacillin2,,
+H.influenzae,Piperacillin-tazobactam,0.256,0.256
+H.influenzae,Ticarcillin-clavulanic acid,,
+H.influenzae,Temocillin,,
+H.influenzae,Phenoxymethylpenicillin,,
+H.influenzae,Oxacillin,,
+H.influenzae,Cloxacillin,,
+H.influenzae,Dicloxacillin,,
+H.influenzae,Flucloxacillin,,
+H.influenzae,Mecillinam oral,,
+H.influenzae,Cephalosporins1,,
+H.influenzae,Cefaclor,,
+H.influenzae,Cefadroxil,,
+H.influenzae,Cefalexin,,
+H.influenzae,Cefazolin,,
+H.influenzae,Cefepime,0.25,0.25
+H.influenzae,Cefepime-enmetazobactam2,2.0,2.0
+H.influenzae,Cefiderocol,,
+H.influenzae,Cefixime,0.125,0.125
+H.influenzae,Cefotaxime,0.125,0.125
+H.influenzae,Cefoxitin,,
+H.influenzae,Cefpodoxime,0.25,0.25
+H.influenzae,Ceftaroline,0.03,0.03
+H.influenzae,Ceftazidime,,
+H.influenzae,Ceftazidime-avibactam,,
+H.influenzae,Ceftibuten,1.0,1.0
+H.influenzae,Ceftobiprole,,
+H.influenzae,Ceftolozane-tazobactam,0.5,0.5
+H.influenzae,Ceftriaxone,0.125,0.125
+H.influenzae,Cefuroxime iv,1.0,2.0
+H.influenzae,Cefuroxime oral,0.001,1.0
+H.influenzae,"Carbapenems1,2",,
+H.influenzae,Doripenem,1.0,1.0
+H.influenzae,Ertapenem,0.5,0.5
+H.influenzae,Imipenem,2.0,2.0
+H.influenzae,Imipenem-relebactam3,3.0,3.0
+H.influenzae,Meropenem,2.0,2.0
+H.influenzae,Meropenem,0.25,0.25
+H.influenzae,Meropenem-vaborbactam3,3.0,3.0
+H.influenzae,Monobactams,,
+H.influenzae,Aztreonam,,
+H.influenzae,Aztreonam-avibactam,,
+H.influenzae,Fluoroquinolones,,
+H.influenzae,Ciprofloxacin,0.03,0.03
+H.influenzae,Delafloxacin,,
+H.influenzae,Levofloxacin,0.06,0.06
+H.influenzae,Moxifloxacin,0.125,0.125
+H.influenzae,Nalidixic acid,,
+H.influenzae,Norfloxacin,,
+H.influenzae,Ofloxacin,0.06,0.06
+H.influenzae,Aminoglycosides,,
+H.influenzae,Amikacin,,
+H.influenzae,Gentamicin,,
+H.influenzae,Netilmicin,,
+H.influenzae,Tobramycin,,
+H.influenzae,Glycopeptides and lipoglycopeptides,,
+H.influenzae,Dalbavancin,,
+H.influenzae,Oritavancin,,
+H.influenzae,Teicoplanin,,
+H.influenzae,Telavancin,,
+H.influenzae,Vancomycin,,
+H.influenzae,"Macrolides1, lincosamides and streptogramins",,
+H.influenzae,Azithromycin,1.0,1.0
+H.influenzae,Clarithromycin,1.0,1.0
+H.influenzae,Erythromycin,1.0,1.0
+H.influenzae,Roxithromycin,1.0,1.0
+H.influenzae,Clindamycin,,
+H.influenzae,Quinupristin-dalfopristin,,
+H.influenzae,Tetracyclines,,
+H.influenzae,Doxycycline,11.0,11.0
+H.influenzae,Eravacycline,,
+H.influenzae,Minocycline,11.0,11.0
+H.influenzae,Tetracycline,21.0,21.0
+H.influenzae,Tigecycline,,
+H.influenzae,Oxazolidinones,,
+H.influenzae,Linezolid,,
+H.influenzae,Tedizolid,,
+H.influenzae,Miscellaneous agents,,
+H.influenzae,Chloramphenicol1,2.0,2.0
+H.influenzae,Colistin,,
+H.influenzae,Daptomycin,,
+H.influenzae,Fosfomycin iv,,
+H.influenzae,Fosfomycin oral,,
+H.influenzae,Fusidic acid,,
+H.influenzae,Lefamulin,,
+H.influenzae,Metronidazole,,
+H.influenzae,Nitrofurantoin,,
+H.influenzae,Nitroxoline,,
+H.influenzae,Rifampicin,1.0,1.0
+H.influenzae,Spectinomycin,,
+H.influenzae,Trimethoprim,,
+H.influenzae,Trimethoprim-sulfamethoxazole2,0.5,1.0
+H.influenzae,Examples of inhibition zones for H. influenzae and a beta-lactam agent where an otherwise clear inhibition zone contains an area of growth around the disk.,,
+H.influenzae,Read the outer edge of zones where an otherwise clear inhibition zone contains an area of growth around the disk.,,
+M.catarrhalis,Benzylpenicillin,,
+M.catarrhalis,Ampicillin,1.0,1.0
+M.catarrhalis,Ampicillin-sulbactam,123.0,123.0
+M.catarrhalis,Amoxicillin,1.0,1.0
+M.catarrhalis,Amoxicillin-clavulanic acid,14.0,14.0
+M.catarrhalis,Piperacillin,1.0,1.0
+M.catarrhalis,Piperacillin-tazobactam,3.0,3.0
+M.catarrhalis,Ticarcillin-clavulanic acid,,
+M.catarrhalis,Temocillin,,
+M.catarrhalis,Phenoxymethylpenicillin,,
+M.catarrhalis,Oxacillin,,
+M.catarrhalis,Cloxacillin,,
+M.catarrhalis,Dicloxacillin,,
+M.catarrhalis,Flucloxacillin,,
+M.catarrhalis,Mecillinam oral,,
+M.catarrhalis,Cephalosporins,,
+M.catarrhalis,Cefaclor,,
+M.catarrhalis,Cefadroxil,,
+M.catarrhalis,Cefalexin,,
+M.catarrhalis,Cefazolin,,
+M.catarrhalis,Cefepime,4.0,4.0
+M.catarrhalis,Cefepime-enmetazobactam1,1.0,1.0
+M.catarrhalis,Cefiderocol,,
+M.catarrhalis,Cefixime,0.5,0.5
+M.catarrhalis,Cefotaxime,1.0,2.0
+M.catarrhalis,Cefoxitin,,
+M.catarrhalis,Cefpodoxime,,
+M.catarrhalis,Ceftaroline,,
+M.catarrhalis,Ceftazidime,,
+M.catarrhalis,Ceftazidime-avibactam,,
+M.catarrhalis,Ceftibuten,,
+M.catarrhalis,Ceftobiprole,,
+M.catarrhalis,Ceftolozane-tazobactam,,
+M.catarrhalis,Ceftriaxone,1.0,2.0
+M.catarrhalis,Cefuroxime iv,4.0,8.0
+M.catarrhalis,Cefuroxime oral,0.001,4.0
+M.catarrhalis,Carbapenems,,
+M.catarrhalis,Doripenem1,1.0,1.0
+M.catarrhalis,Ertapenem1,0.5,0.5
+M.catarrhalis,Imipenem1,2.0,2.0
+M.catarrhalis,Imipenem-relebactam2,2.0,2.0
+M.catarrhalis,Meropenem1,2.0,2.0
+M.catarrhalis,Meropenem-vaborbactam2,2.0,2.0
+M.catarrhalis,Monobactams,,
+M.catarrhalis,Aztreonam,,
+M.catarrhalis,Aztreonam-avibactam,,
+M.catarrhalis,Fluoroquinolones,,
+M.catarrhalis,Ciprofloxacin,0.125,0.125
+M.catarrhalis,Delafloxacin,,
+M.catarrhalis,Levofloxacin,0.125,0.125
+M.catarrhalis,Moxifloxacin,0.25,0.25
+M.catarrhalis,Nalidixic acid,,
+M.catarrhalis,Norfloxacin,,
+M.catarrhalis,Ofloxacin,0.25,0.25
+M.catarrhalis,Aminoglycosides,,
+M.catarrhalis,Amikacin,,
+M.catarrhalis,Gentamicin,,
+M.catarrhalis,Netilmicin,,
+M.catarrhalis,Tobramycin,,
+M.catarrhalis,Glycopeptides and lipoglycopeptides,,
+M.catarrhalis,Dalbavancin,,
+M.catarrhalis,Oritavancin,,
+M.catarrhalis,Teicoplanin,,
+M.catarrhalis,Telavancin,,
+M.catarrhalis,Vancomycin,,
+M.catarrhalis,"Macrolides, lincosamides and streptogramins",,
+M.catarrhalis,Azithromycin,0.251,0.251
+M.catarrhalis,Clarithromycin,0.251,0.251
+M.catarrhalis,Erythromycin,0.25,0.25
+M.catarrhalis,Roxithromycin,0.51,0.51
+M.catarrhalis,Clindamycin,,
+M.catarrhalis,Quinupristin-dalfopristin,,
+M.catarrhalis,Tetracyclines,,
+M.catarrhalis,Doxycycline,11.0,11.0
+M.catarrhalis,Eravacycline,,
+M.catarrhalis,Minocycline,11.0,11.0
+M.catarrhalis,Tetracycline,21.0,21.0
+M.catarrhalis,Tigecycline,,
+M.catarrhalis,Oxazolidinones,,
+M.catarrhalis,Linezolid,,
+M.catarrhalis,Tedizolid,,
+M.catarrhalis,Miscellaneous agents,,
+M.catarrhalis,Chloramphenicol,1.0,1.0
+M.catarrhalis,Colistin,,
+M.catarrhalis,Daptomycin,,
+M.catarrhalis,Fosfomycin iv,,
+M.catarrhalis,Fosfomycin oral,,
+M.catarrhalis,Fusidic acid,,
+M.catarrhalis,Lefamulin,,
+M.catarrhalis,Metronidazole,,
+M.catarrhalis,Nitrofurantoin,,
+M.catarrhalis,Nitroxoline,,
+M.catarrhalis,Rifampicin,,
+M.catarrhalis,Spectinomycin,,
+M.catarrhalis,Trimethoprim,,
+M.catarrhalis,Trimethoprim-sulfamethoxazole2,0.5,1.0
+N.gonorrhoeae,Benzylpenicillin,0.061,1.0
+N.gonorrhoeae,Ampicillin1,1.0,1.0
+N.gonorrhoeae,Ampicillin-sulbactam,,
+N.gonorrhoeae,Amoxicillin1,1.0,1.0
+N.gonorrhoeae,Amoxicillin-clavulanic acid,,
+N.gonorrhoeae,Piperacillin,,
+N.gonorrhoeae,Piperacillin-tazobactam,,
+N.gonorrhoeae,Ticarcillin-clavulanic acid,,
+N.gonorrhoeae,Temocillin,,
+N.gonorrhoeae,Phenoxymethylpenicillin,,
+N.gonorrhoeae,Oxacillin,,
+N.gonorrhoeae,Cloxacillin,,
+N.gonorrhoeae,Dicloxacillin,,
+N.gonorrhoeae,Flucloxacillin,,
+N.gonorrhoeae,Mecillinam oral,,
+N.gonorrhoeae,Cephalosporins,,
+N.gonorrhoeae,Cefaclor,,
+N.gonorrhoeae,Cefadroxil,,
+N.gonorrhoeae,Cefalexin,,
+N.gonorrhoeae,Cefazolin,,
+N.gonorrhoeae,Cefepime,,
+N.gonorrhoeae,Cefepime-enmetazobactam,,
+N.gonorrhoeae,Cefiderocol,,
+N.gonorrhoeae,Cefixime,0.125,0.125
+N.gonorrhoeae,Cefotaxime,0.125,0.125
+N.gonorrhoeae,Cefoxitin,,
+N.gonorrhoeae,Cefpodoxime,,
+N.gonorrhoeae,Ceftaroline,,
+N.gonorrhoeae,Ceftazidime,,
+N.gonorrhoeae,Ceftazidime-avibactam,,
+N.gonorrhoeae,Ceftibuten,,
+N.gonorrhoeae,Ceftobiprole,,
+N.gonorrhoeae,Ceftolozane-tazobactam,,
+N.gonorrhoeae,Ceftriaxone,0.125,0.125
+N.gonorrhoeae,Cefuroxime iv,,
+N.gonorrhoeae,Cefuroxime oral,,
+N.gonorrhoeae,Carbapenems,,
+N.gonorrhoeae,Doripenem,,
+N.gonorrhoeae,Ertapenem,,
+N.gonorrhoeae,Imipenem,,
+N.gonorrhoeae,Imipenem-relebactam,,
+N.gonorrhoeae,Meropenem,,
+N.gonorrhoeae,Meropenem-vaborbactam,,
+N.gonorrhoeae,Monobactams,,
+N.gonorrhoeae,Aztreonam,,
+N.gonorrhoeae,Aztreonam-avibactam,,
+N.gonorrhoeae,Fluoroquinolones,,
+N.gonorrhoeae,Ciprofloxacin,0.03,0.06
+N.gonorrhoeae,Delafloxacin,,
+N.gonorrhoeae,Levofloxacin,,
+N.gonorrhoeae,Moxifloxacin,,
+N.gonorrhoeae,Nalidixic acid,,
+N.gonorrhoeae,Norfloxacin,,
+N.gonorrhoeae,Ofloxacin,0.125,0.25
+N.gonorrhoeae,Aminoglycosides,,
+N.gonorrhoeae,Amikacin,,
+N.gonorrhoeae,Gentamicin,,
+N.gonorrhoeae,Netilmicin,,
+N.gonorrhoeae,Tobramycin,,
+N.gonorrhoeae,Glycopeptides and lipoglycopeptides,,
+N.gonorrhoeae,Dalbavancin,,
+N.gonorrhoeae,Oritavancin,,
+N.gonorrhoeae,Teicoplanin,,
+N.gonorrhoeae,Telavancin,,
+N.gonorrhoeae,Vancomycin,,
+N.gonorrhoeae,"Macrolides, lincosamides and streptogramins",,
+N.gonorrhoeae,Azithromycin,1.0,1.0
+N.gonorrhoeae,Clarithromycin,,
+N.gonorrhoeae,Erythromycin,,
+N.gonorrhoeae,Roxithromycin,,
+N.gonorrhoeae,Clindamycin,,
+N.gonorrhoeae,Quinupristin-dalfopristin,,
+N.gonorrhoeae,Tetracyclines,,
+N.gonorrhoeae,Doxycycline,,
+N.gonorrhoeae,Eravacycline,,
+N.gonorrhoeae,Minocycline,,
+N.gonorrhoeae,Tetracycline,0.5,0.5
+N.gonorrhoeae,Tigecycline,,
+N.gonorrhoeae,Oxazolidinones,,
+N.gonorrhoeae,Linezolid,,
+N.gonorrhoeae,Tedizolid,,
+N.gonorrhoeae,Miscellaneous agents,,
+N.gonorrhoeae,Chloramphenicol,,
+N.gonorrhoeae,Colistin,,
+N.gonorrhoeae,Daptomycin,,
+N.gonorrhoeae,Fosfomycin iv,,
+N.gonorrhoeae,Fosfomycin oral,,
+N.gonorrhoeae,Fusidic acid,,
+N.gonorrhoeae,Lefamulin,,
+N.gonorrhoeae,Metronidazole,,
+N.gonorrhoeae,Nitrofurantoin,,
+N.gonorrhoeae,Nitroxoline,,
+N.gonorrhoeae,Rifampicin,,
+N.gonorrhoeae,Spectinomycin,64.0,64.0
+N.gonorrhoeae,Trimethoprim,,
+N.gonorrhoeae,Trimethoprim-sulfamethoxazole,,
+N.meningitidis,Benzylpenicillin,0.25,0.25
+N.meningitidis,Ampicillin,0.125,1.0
+N.meningitidis,Ampicillin,,
+N.meningitidis,Ampicillin-sulbactam,,
+N.meningitidis,Amoxicillin,0.125,1.0
+N.meningitidis,Amoxicillin,,
+N.meningitidis,Amoxicillin-clavulanic acid,,
+N.meningitidis,Piperacillin,,
+N.meningitidis,Piperacillin-tazobactam,,
+N.meningitidis,Ticarcillin-clavulanic acid,,
+N.meningitidis,Temocillin,,
+N.meningitidis,Phenoxymethylpenicillin,,
+N.meningitidis,Oxacillin,,
+N.meningitidis,Cloxacillin,,
+N.meningitidis,Dicloxacillin,,
+N.meningitidis,Flucloxacillin,,
+N.meningitidis,Mecillinam oral,,
+N.meningitidis,Cephalosporins,,
+N.meningitidis,Cefaclor,,
+N.meningitidis,Cefadroxil,,
+N.meningitidis,Cefalexin,,
+N.meningitidis,Cefazolin,,
+N.meningitidis,Cefepime,,
+N.meningitidis,Cefepime-enmetazobactam,,
+N.meningitidis,Cefiderocol,,
+N.meningitidis,Cefixime,,
+N.meningitidis,Cefotaxime,0.125,0.125
+N.meningitidis,Cefoxitin,,
+N.meningitidis,Cefpodoxime,,
+N.meningitidis,Ceftaroline,,
+N.meningitidis,Ceftazidime,,
+N.meningitidis,Ceftazidime-avibactam,,
+N.meningitidis,Ceftibuten,,
+N.meningitidis,Ceftobiprole,,
+N.meningitidis,Ceftolozane-tazobactam,,
+N.meningitidis,Ceftriaxone,0.125,0.125
+N.meningitidis,Cefuroxime iv,,
+N.meningitidis,Cefuroxime oral,,
+N.meningitidis,"Carbapenems1,2",,
+N.meningitidis,Doripenem,2.0,2.0
+N.meningitidis,Ertapenem,,
+N.meningitidis,Imipenem,2.0,2.0
+N.meningitidis,Imipenem-relebactam3,23.0,23.0
+N.meningitidis,Meropenem,0.25,0.25
+N.meningitidis,Meropenem-vaborbactam3,23.0,23.0
+N.meningitidis,Monobactams,,
+N.meningitidis,Aztreonam,,
+N.meningitidis,Aztreonam-avibactam,,
+N.meningitidis,Fluoroquinolones,,
+N.meningitidis,Ciprofloxacin,0.016,0.016
+N.meningitidis,Delafloxacin,,
+N.meningitidis,Levofloxacin,,
+N.meningitidis,Moxifloxacin,,
+N.meningitidis,Nalidixic acid,,
+N.meningitidis,Norfloxacin,,
+N.meningitidis,Ofloxacin,,
+N.meningitidis,Aminoglycosides,,
+N.meningitidis,Amikacin,,
+N.meningitidis,Gentamicin,,
+N.meningitidis,Netilmicin,,
+N.meningitidis,Tobramycin,,
+N.meningitidis,Glycopeptides and lipoglycopeptides,,
+N.meningitidis,Dalbavancin,,
+N.meningitidis,Oritavancin,,
+N.meningitidis,Teicoplanin,,
+N.meningitidis,Telavancin,,
+N.meningitidis,Vancomycin,,
+N.meningitidis,"Macrolides, lincosamides and streptogramins",,
+N.meningitidis,Azithromycin,,
+N.meningitidis,Clarithromycin,,
+N.meningitidis,Erythromycin,,
+N.meningitidis,Roxithromycin,,
+N.meningitidis,Clindamycin,,
+N.meningitidis,Quinupristin-dalfopristin,,
+N.meningitidis,Tetracyclines,,
+N.meningitidis,Doxycycline,,
+N.meningitidis,Eravacycline,,
+N.meningitidis,Minocycline,11.0,11.0
+N.meningitidis,Tetracycline,21.0,21.0
+N.meningitidis,Tigecycline,,
+N.meningitidis,Oxazolidinones,,
+N.meningitidis,Linezolid,,
+N.meningitidis,Tedizolid,,
+N.meningitidis,Miscellaneous agents,,
+N.meningitidis,Chloramphenicol,2.0,2.0
+N.meningitidis,Colistin,,
+N.meningitidis,Daptomycin,,
+N.meningitidis,Fosfomycin iv,,
+N.meningitidis,Fosfomycin oral,,
+N.meningitidis,Fusidic acid,,
+N.meningitidis,Lefamulin,,
+N.meningitidis,Metronidazole,,
+N.meningitidis,Nitrofurantoin,,
+N.meningitidis,Nitroxoline,,
+N.meningitidis,Rifampicin,0.25,0.25
+N.meningitidis,Spectinomycin,,
+N.meningitidis,Trimethoprim,,
+N.meningitidis,Trimethoprim-sulfamethoxazole,,
+Anaerobic bacteria,Ampicillin-sulbactam,21.0,21.0
+Anaerobic bacteria,Amoxicillin-clavulanic acid,22.0,22.0
+Anaerobic bacteria,Piperacillin-tazobactam3,24.0,24.0
+Anaerobic bacteria,Ertapenem,25.0,25.0
+Anaerobic bacteria,Imipenem,1.0,1.0
+Anaerobic bacteria,Meropenem,1.0,1.0
+Anaerobic bacteria,Clindamycin,45.0,45.0
+Anaerobic bacteria,Metronidazole,4.0,4.0
+Anaerobic bacteria,Prevotella spp.,,
+Anaerobic bacteria,Antimicrobial agent,,
+Anaerobic bacteria,Benzylpenicillin,0.51,0.51
+Anaerobic bacteria,Ampicillin,0.51,0.51
+Anaerobic bacteria,Ampicillin-sulbactam,12.0,12.0
+Anaerobic bacteria,Amoxicillin,0.251,0.251
+Anaerobic bacteria,Amoxicillin-clavulanic acid,12.0,12.0
+Anaerobic bacteria,Piperacillin-tazobactam,12.0,12.0
+Anaerobic bacteria,Ertapenem,0.51,0.51
+Anaerobic bacteria,Imipenem,0.1251,0.1251
+Anaerobic bacteria,Meropenem,0.251,0.251
+Anaerobic bacteria,Clindamycin,0.25,0.25
+Anaerobic bacteria,Metronidazole,4.0,4.0
+Anaerobic bacteria,Fusobacterium necrophorum,,
+Anaerobic bacteria,Antimicrobial agent,,
+Anaerobic bacteria,Benzylpenicillin,0.1251,0.1251
+Anaerobic bacteria,Ampicillin,0.51,0.51
+Anaerobic bacteria,Ampicillin-sulbactam,0.512,0.512
+Anaerobic bacteria,Amoxicillin,0.51,0.51
+Anaerobic bacteria,Amoxicillin-clavulanic acid,0.513,0.513
+Anaerobic bacteria,Piperacillin-tazobactam,0.514,0.514
+Anaerobic bacteria,Ertapenem,0.061,0.061
+Anaerobic bacteria,Imipenem,0.1251,0.1251
+Anaerobic bacteria,Meropenem,0.031,0.031
+Anaerobic bacteria,Clindamycin,0.25,0.25
+Anaerobic bacteria,Metronidazole,0.5,0.5
+Anaerobic bacteria,Clostridium perfringens,,
+Anaerobic bacteria,Antimicrobial agent,,
+Anaerobic bacteria,Benzylpenicillin,0.51,0.51
+Anaerobic bacteria,Ampicillin,0.251,0.251
+Anaerobic bacteria,Ampicillin-sulbactam,0.2512,0.2512
+Anaerobic bacteria,Amoxicillin,0.251,0.251
+Anaerobic bacteria,Amoxicillin-clavulanic acid,0.2513,0.2513
+Anaerobic bacteria,Piperacillin-tazobactam,0.514,0.514
+Anaerobic bacteria,Ertapenem,0.51,0.51
+Anaerobic bacteria,Imipenem,0.51,0.51
+Anaerobic bacteria,Meropenem,0.1251,0.1251
+Anaerobic bacteria,Vancomycin,2.0,2.0
+Anaerobic bacteria,Clindamycin,0.25,0.25
+Anaerobic bacteria,Metronidazole,4.0,4.0
+Anaerobic bacteria,Cutibacterium acnes,,
+Anaerobic bacteria,Antimicrobial agent,,
+Anaerobic bacteria,Benzylpenicillin,0.061,0.061
+Anaerobic bacteria,Ampicillin,0.251,0.251
+Anaerobic bacteria,Ampicillin-sulbactam,12.0,12.0
+Anaerobic bacteria,Amoxicillin,0.251,0.251
+Anaerobic bacteria,Amoxicillin-clavulanic acid,12.0,12.0
+Anaerobic bacteria,Piperacillin-tazobactam,12.0,12.0
+Anaerobic bacteria,Cefotaxime,,
+Anaerobic bacteria,Ceftriaxone,0.061,0.061
+Anaerobic bacteria,Ertapenem,0.251,0.251
+Anaerobic bacteria,Imipenem,0.031,0.031
+Anaerobic bacteria,Meropenem,0.1251,0.1251
+Anaerobic bacteria,Vancomycin,2.0,2.0
+Anaerobic bacteria,Clindamycin,0.25,0.25
+Anaerobic bacteria,Linezolid,2.0,2.0
+Anaerobic bacteria,Clostridioides difficile,,
+Anaerobic bacteria,Antimicrobial agent,,
+Anaerobic bacteria,Vancomycin,21.0,21.0
+Anaerobic bacteria,Fidaxomicin,0.51,0.51
+Anaerobic bacteria,Metronidazole,21.0,21.0
+Anaerobic bacteria,Examples of inhibition zones for anaerobic bacteria.,,
+Anaerobic bacteria,"a) If haze within the zone occurs, read the most obvious zone edge. Tilt the plate towards you to better define the obvious zone edge.",,
+Anaerobic bacteria,"b) Isolated colonies within the inhibition zone should be taken into account. For clindamycin, it is particularly important to examine zones carefully for colonies growing within the zone.",,
+Anaerobic bacteria,c) Ignore haemolysis when reading zones.,,
+H.pylori,Amoxicillin oral,0.125,0.125
+H.pylori,Fluoroquinolones,,
+H.pylori,Levofloxacin,1.0,1.0
+H.pylori,Macrolides,,
+H.pylori,Clarithromycin,0.25,0.25
+H.pylori,Tetracyclines,,
+H.pylori,Tetracycline,1.0,1.0
+H.pylori,Miscellaneous agents,,
+H.pylori,Metronidazole,8.0,8.0
+H.pylori,Rifampicin,1.0,1.0
+L.monocytogenes,Benzylpenicillin,1.0,1.0
+L.monocytogenes,Benzylpenicillin,,
+L.monocytogenes,Ampicillin iv,1.0,1.0
+L.monocytogenes,Carbapenems,,
+L.monocytogenes,Meropenem,0.25,0.25
+L.monocytogenes,Fluoroquinolones,,
+L.monocytogenes,Moxifloxacin,,
+L.monocytogenes,Oxazolidinones,,
+L.monocytogenes,Linezolid,,
+L.monocytogenes,Macrolides,,
+L.monocytogenes,Erythromycin,1.0,1.0
+L.monocytogenes,Miscellaneous agents,,
+L.monocytogenes,Trimethoprim-sulfamethoxazole,0.06,0.06
+Pasteurella,Benzylpenicillin,0.5,0.5
+Pasteurella,Ampicillin,1.0,1.0
+Pasteurella,Amoxicillin,1.0,1.0
+Pasteurella,Amoxicillin-clavulanic acid,11.0,11.0
+Pasteurella,Cephalosporins,,
+Pasteurella,Cefotaxime,0.03,0.03
+Pasteurella,Fluoroquinolones,,
+Pasteurella,Ciprofloxacin,0.06,0.06
+Pasteurella,Levofloxacin,0.06,0.06
+Pasteurella,Nalidixic acid,,
+Pasteurella,Tetracyclines,,
+Pasteurella,Doxycycline,1.0,1.0
+Pasteurella,Tetracycline,,
+Pasteurella,Miscellaneous agents,,
+Pasteurella,Trimethoprim-sulfamethoxazole1,0.25,0.25
+C.jejuni_C.coli,Ciprofloxacin,0.001,0.5
+C.jejuni_C.coli,Macrolides,,
+C.jejuni_C.coli,Azithromycin,1.0,1.0
+C.jejuni_C.coli,Clarithromycin,1.0,1.0
+C.jejuni_C.coli,"Erythromycin, C. jejuni",41.0,41.0
+C.jejuni_C.coli,"Erythromycin, C. coli",81.0,81.0
+C.jejuni_C.coli,Tetracyclines,,
+C.jejuni_C.coli,Doxycycline,1.0,1.0
+C.jejuni_C.coli,Tetracycline,21.0,21.0
+Corynebacterium,Benzylpenicillin,0.001,1.0
+Corynebacterium,Fluoroquinolones,,
+Corynebacterium,Ciprofloxacin,0.001,1.0
+Corynebacterium,Moxifloxacin,0.5,0.5
+Corynebacterium,Aminoglycosides,,
+Corynebacterium,Gentamicin,,
+Corynebacterium,Glycopeptides,,
+Corynebacterium,Vancomycin,2.0,2.0
+Corynebacterium,Macrolides and lincosamides,,
+Corynebacterium,Clindamycin1,0.5,0.5
+Corynebacterium,Tetracyclines,,
+Corynebacterium,Tetracycline,2.0,2.0
+Corynebacterium,Oxazolidinones,,
+Corynebacterium,Linezolid,2.0,2.0
+Corynebacterium,Miscellaneous agents,,
+Corynebacterium,Rifampicin,0.06,0.06
+C.diphtheriae_C.ulcerans,Benzylpenicillin,0.001,1.0
+C.diphtheriae_C.ulcerans,Amoxicillin,11.0,11.0
+C.diphtheriae_C.ulcerans,Cephalosporins,,
+C.diphtheriae_C.ulcerans,Cefotaxime,0.0011,21.0
+C.diphtheriae_C.ulcerans,Carbapenems,,
+C.diphtheriae_C.ulcerans,Meropenem,0.251,0.251
+C.diphtheriae_C.ulcerans,Fluoroquinolones,,
+C.diphtheriae_C.ulcerans,Ciprofloxacin,0.001,0.5
+C.diphtheriae_C.ulcerans,Macrolides and lincosamides,,
+C.diphtheriae_C.ulcerans,Erythromycin,0.06,0.06
+C.diphtheriae_C.ulcerans,"Clindamycin, C. diphtheriae1",0.5,0.5
+C.diphtheriae_C.ulcerans,Tetracyclines,,
+C.diphtheriae_C.ulcerans,Doxycycline,0.51,0.51
+C.diphtheriae_C.ulcerans,Tetracycline,1.0,1.0
+C.diphtheriae_C.ulcerans,Oxazolidinones,,
+C.diphtheriae_C.ulcerans,Linezolid,2.0,2.0
+C.diphtheriae_C.ulcerans,Miscellaneous agents,,
+C.diphtheriae_C.ulcerans,Rifampicin,0.06,0.06
+C.diphtheriae_C.ulcerans,Trimethoprim-sulfamethoxazole1,0.5,0.5
+A.sanguinicola_A.urinae,Benzylpenicillin,0.125,0.125
+A.sanguinicola_A.urinae,Ampicillin,0.25,0.25
+A.sanguinicola_A.urinae,Amoxicillin,1.0,1.0
+A.sanguinicola_A.urinae,Carbapenems,,
+A.sanguinicola_A.urinae,Meropenem,0.25,0.25
+A.sanguinicola_A.urinae,Fluoroquinolones,,
+A.sanguinicola_A.urinae,Ciprofloxacin,2.0,2.0
+A.sanguinicola_A.urinae,Levofloxacin,21.0,21.0
+A.sanguinicola_A.urinae,Norfloxacin,,
+A.sanguinicola_A.urinae,Glycopeptides,,
+A.sanguinicola_A.urinae,Vancomycin,1.0,1.0
+A.sanguinicola_A.urinae,Miscellaneous agents,,
+A.sanguinicola_A.urinae,Nitrofurantoin,16.0,16.0
+A.sanguinicola_A.urinae,Rifampicin,0.125,0.125
+K.kingae,Benzylpenicillin,0.03,0.03
+K.kingae,Ampicillin,0.062,0.062
+K.kingae,Amoxicillin,0.1252,0.1252
+K.kingae,Amoxicillin-clavulanic acid,3.0,3.0
+K.kingae,Cephalosporins,,
+K.kingae,Cefotaxime,0.125,0.125
+K.kingae,Ceftriaxone,0.06,0.06
+K.kingae,Cefuroxime iv,0.5,0.5
+K.kingae,Carbapenems,,
+K.kingae,Meropenem,0.03,0.03
+K.kingae,Fluoroquinolones,,
+K.kingae,Ciprofloxacin,0.06,0.06
+K.kingae,Levofloxacin,0.125,0.125
+K.kingae,Macrolides and lincosamides,,
+K.kingae,Azithromycin,0.251,0.251
+K.kingae,Clarithromycin,0.51,0.51
+K.kingae,Erythromycin,0.5,0.5
+K.kingae,Clindamycin,,
+K.kingae,Tetracyclines,,
+K.kingae,Doxycycline,0.51,0.51
+K.kingae,Tetracycline,0.5,0.5
+K.kingae,Miscellaneous agents,,
+K.kingae,Rifampicin,0.5,0.5
+K.kingae,Trimethoprim-sulfamethoxazole1,0.25,0.25
+Aeromonas,Cefepime,1.0,4.0
+Aeromonas,Ceftazidime,1.0,4.0
+Aeromonas,Monobactams,,
+Aeromonas,Aztreonam,1.0,4.0
+Aeromonas,Fluoroquinolones,,
+Aeromonas,Ciprofloxacin,0.25,0.5
+Aeromonas,Levofloxacin,0.5,1.0
+Aeromonas,Miscellaneous agents,,
+Aeromonas,Trimethoprim-sulfamethoxazole1,2.0,4.0
+Aeromonas,Examples of inhibition zones for Aeromonas spp. with trimethoprim-sulfamethoxazole.,,
+Aeromonas,a-c) Read the obvious zone edge and disregard haze or growth within the inhibition zone.,,
+A.xylosoxidans,Piperacillin-tazobactam,41.0,41.0
+A.xylosoxidans,Cephalosporins,,
+A.xylosoxidans,Cefiderocol1,2.0,2.0
+A.xylosoxidans,Carbapenems,,
+A.xylosoxidans,Meropenem,1.0,4.0
+A.xylosoxidans,Miscellaneous agents,,
+A.xylosoxidans,Trimethoprim-sulfamethoxazole1,0.125,0.125
+A.xylosoxidans,Examples of inhibition zones for Achromobacter xylosoxidans with trimethoprim-sulfamethoxazole.,,
+A.xylosoxidans,a-b) An outer zone can be seen. Read the outer zone edge and interpret according to the breakpoints.,,
+A.xylosoxidans,c) Growth up to the disk and no sign of inhibition zone. Report resistant.,,
+Vibrio,Piperacillin-tazobactam,11.0,11.0
+Vibrio,Cephalosporins,,
+Vibrio,Cefotaxime,0.25,0.25
+Vibrio,"Cefotaxime, V. fluvialis",,
+Vibrio,Ceftazidime,1.0,1.0
+Vibrio,Carbapenems,,
+Vibrio,Meropenem,0.5,0.5
+Vibrio,Fluoroquinolones,,
+Vibrio,Ciprofloxacin,0.25,0.25
+Vibrio,Levofloxacin,0.25,0.25
+Vibrio,Pefloxacin,,
+Vibrio,Macrolides,,
+Vibrio,Azithromycin,4.0,4.0
+Vibrio,Erythromycin,,
+Vibrio,Tetracyclines,,
+Vibrio,Doxycycline,0.5,0.5
+Vibrio,Tetracycline,,
+Vibrio,Miscellaneous agents,,
+Vibrio,Trimethoprim-sulfamethoxazole1,0.25,0.25
+Bacillus,Imipenem,0.5,0.5
+Bacillus,Meropenem,0.25,0.25
+Bacillus,Fluoroquinolones,,
+Bacillus,Ciprofloxacin,0.001,0.5
+Bacillus,Levofloxacin,0.001,1.0
+Bacillus,Norfloxacin,,
+Bacillus,Glycopeptides,,
+Bacillus,Vancomycin,2.0,2.0
+Bacillus,Macrolides and lincosamides,,
+Bacillus,Erythromycin,0.5,0.5
+Bacillus,Clindamycin,1.0,1.0
+Bacillus,Oxazolidinones,,
+Bacillus,Linezolid,2.0,2.0
+B.anthracis,Benzylpenicillin,0.001,0.5
+B.anthracis,Amoxicillin iv,0.1251,0.1251
+B.anthracis,Fluoroquinolones,,
+B.anthracis,Ciprofloxacin,0.001,0.25
+B.anthracis,Levofloxacin,0.001,0.5
+B.anthracis,Glycopeptides,,
+B.anthracis,Vancomycin,41.0,41.0
+B.anthracis,Macrolides and lincosamides,,
+B.anthracis,Clindamycin,1.0,1.0
+B.anthracis,Tetracyclines,,
+B.anthracis,Doxycycline,0.061,0.061
+B.anthracis,Tetracycline,0.125,0.125
+B.anthracis,Oxazolidinones,,
+B.anthracis,Linezolid,2.0,2.0
+B.anthracis,Miscellaneous agents,,
+B.anthracis,Rifampicin,11.0,11.0
+B.melitensis ,Ceftriaxone,21.0,21.0
+B.melitensis ,Fluoroquinolones,,
+B.melitensis ,Ciprofloxacin,0.001,1.0
+B.melitensis ,Levofloxacin,0.001,1.0
+B.melitensis ,Aminoglycosides,,
+B.melitensis ,Gentamicin,0.51,0.51
+B.melitensis ,Streptomycin,11.0,11.0
+B.melitensis ,Tetracyclines,,
+B.melitensis ,Doxycycline,0.251,0.251
+B.melitensis ,Tetracycline,0.5,0.5
+B.melitensis ,Miscellaneous agents,,
+B.melitensis ,Rifampicin,21.0,21.0
+B.melitensis ,Trimethoprim-sulfamethoxazole2,0.125,0.125
+B.pseudomallei,Amoxicillin-clavulanic acid,0.0011,81.0
+B.pseudomallei,Cephalosporins,,
+B.pseudomallei,Ceftazidime,0.001,8.0
+B.pseudomallei,Carbapenems,,
+B.pseudomallei,Imipenem,2.0,2.0
+B.pseudomallei,Meropenem,2.0,2.0
+B.pseudomallei,Tetracyclines,,
+B.pseudomallei,Doxycycline,0.001,2.0
+B.pseudomallei,Tetracycline,,
+B.pseudomallei,Miscellaneous agents,,
+B.pseudomallei,Chloramphenicol,0.001,8.0
+B.pseudomallei,Trimethoprim-sulfamethoxazole1,0.001,4.0
+B.pseudomallei,Examples of inhibition zones for Burkholderia pseudomallei with trimethoprim-sulfamethoxazole.,,
+B.pseudomallei,a-b) An outer zone can be seen. Read the outer zone edge and interpret according to the breakpoints.,,
+B.pseudomallei,c) Growth up to the disk and no sign of inhibition zone. Report resistant.,,
+M.tuberculosis,Bedaquiline,0.251,0.251
+M.tuberculosis,Delamanid,0.061,0.061
+M.tuberculosis,Pretomanid,12.0,12.0
+PK PD breakpoints,Benzylpenicillin,0.25,2.0
+PK PD breakpoints,Ampicillin,2.0,8.0
+PK PD breakpoints,Ampicillin-sulbactam,21.0,81.0
+PK PD breakpoints,Amoxicillin,2.0,8.0
+PK PD breakpoints,Amoxicillin-clavulanic acid,22.0,82.0
+PK PD breakpoints,Piperacillin,8.0,16.0
+PK PD breakpoints,Piperacillin-tazobactam,83.0,163.0
+PK PD breakpoints,Ticarcillin-clavulanic acid,82.0,162.0
+PK PD breakpoints,Temocillin,8.0,8.0
+PK PD breakpoints,Phenoxymethylpenicillin,,
+PK PD breakpoints,Oxacillin,,
+PK PD breakpoints,Cloxacillin,,
+PK PD breakpoints,Dicloxacillin,,
+PK PD breakpoints,Flucloxacillin,,
+PK PD breakpoints,Mecillinam oral,,
+PK PD breakpoints,Cephalosporins,,
+PK PD breakpoints,Cefaclor,,
+PK PD breakpoints,Cefadroxil,,
+PK PD breakpoints,Cefalexin,,
+PK PD breakpoints,Cefazolin,1.0,2.0
+PK PD breakpoints,Cefepime,4.0,8.0
+PK PD breakpoints,Cefiderocol,21.0,21.0
+PK PD breakpoints,Cefixime,,
+PK PD breakpoints,Cefotaxime,1.0,2.0
+PK PD breakpoints,Cefoxitin,,
+PK PD breakpoints,Cefpodoxime,,
+PK PD breakpoints,Ceftaroline,0.52,0.52
+PK PD breakpoints,Ceftazidime,4.0,8.0
+PK PD breakpoints,Ceftazidime-avibactam,83.0,83.0
+PK PD breakpoints,Ceftibuten,,
+PK PD breakpoints,Ceftobiprole,4.0,4.0
+PK PD breakpoints,Ceftolozane-tazobactam,44.5,44.5
+PK PD breakpoints,Ceftriaxone,1.0,2.0
+PK PD breakpoints,Cefuroxime iv,4.0,8.0
+PK PD breakpoints,Cefuroxime oral,,
+PK PD breakpoints,Carbapenems,,
+PK PD breakpoints,Doripenem,1.0,2.0
+PK PD breakpoints,Ertapenem,0.5,0.5
+PK PD breakpoints,Imipenem,2.0,4.0
+PK PD breakpoints,Imipenem-relebactam,21.0,21.0
+PK PD breakpoints,Meropenem,2.0,8.0
+PK PD breakpoints,Meropenem-vaborbactam,82.0,82.0
+PK PD breakpoints,Monobactams,,
+PK PD breakpoints,Aztreonam,4.0,8.0
+PK PD breakpoints,Fluoroquinolones,,
+PK PD breakpoints,Ciprofloxacin,0.25,0.5
+PK PD breakpoints,Delafloxacin,,
+PK PD breakpoints,Levofloxacin,0.5,1.0
+PK PD breakpoints,Moxifloxacin,0.25,0.25
+PK PD breakpoints,Nalidixic acid,,
+PK PD breakpoints,Norfloxacin,,
+PK PD breakpoints,Ofloxacin,0.25,0.5
+PK PD breakpoints,Aminoglycosides,,
+PK PD breakpoints,Amikacin,1.0,1.0
+PK PD breakpoints,Gentamicin,0.5,0.5
+PK PD breakpoints,Netilmicin,,
+PK PD breakpoints,Tobramycin,0.5,0.5
+PK PD breakpoints,Glycopeptides and lipoglycopeptides,,
+PK PD breakpoints,Dalbavancin,0.251,0.251
+PK PD breakpoints,Oritavancin,,
+PK PD breakpoints,Teicoplanin,,
+PK PD breakpoints,Telavancin,,
+PK PD breakpoints,Vancomycin,,
+PK PD breakpoints,"Macrolides, lincosamides and streptogramins",,
+PK PD breakpoints,Azithromycin,,
+PK PD breakpoints,Clarithromycin,,
+PK PD breakpoints,Erythromycin,,
+PK PD breakpoints,Roxithromycin,,
+PK PD breakpoints,Telithromycin,,
+PK PD breakpoints,Clindamycin,,
+PK PD breakpoints,Quinupristin-dalfopristin,,
+PK PD breakpoints,Tetracyclines,,
+PK PD breakpoints,Doxycycline,,
+PK PD breakpoints,Eravacycline,,
+PK PD breakpoints,Minocycline,,
+PK PD breakpoints,Tetracycline,,
+PK PD breakpoints,Tigecycline,0.51,0.51
+PK PD breakpoints,Oxazolidinones,,
+PK PD breakpoints,Linezolid,2.0,2.0
+PK PD breakpoints,Tedizolid,,
+PK PD breakpoints,Miscellaneous agents,,
+PK PD breakpoints,Chloramphenicol,,
+PK PD breakpoints,Colistin,,
+PK PD breakpoints,Daptomycin,,
+PK PD breakpoints,Fosfomycin iv,,
+PK PD breakpoints,Fosfomycin oral,8.0,8.0
+PK PD breakpoints,Fusidic acid,,
+PK PD breakpoints,Lefamulin,0.25,0.25
+PK PD breakpoints,Metronidazole,,
+PK PD breakpoints,Nitrofurantoin,,
+PK PD breakpoints,Nitroxoline,,
+PK PD breakpoints,Rifampicin,,
+PK PD breakpoints,Spectinomycin,,
+PK PD breakpoints,Trimethoprim,,
+PK PD breakpoints,Trimethoprim-sulfamethoxazole,,
