@@ -39,6 +39,9 @@ def ingest_one_excel(path, vendor):
     df = df.rename(columns=rename, errors="ignore")
     required = {"organism","drug","mic","country","year"}
     missing  = required - set(df.columns)
+    if {"drug", "mic"}.issubset(missing):
+        print(f"[!] SKIP {vendor}: wide format (no drug/mic columns)")
+        return
     if missing == {"drug", "mic"}:
         print(f"[!] SKIP {vendor}: wide format (no drug/mic columns)")
         return
