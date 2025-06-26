@@ -56,7 +56,13 @@ RAW_FOLDER  = ROOT / "data" / "raw"
 PROC_FOLDER = ROOT / "data" / "processed"
 
 # context columns we never melt
-CONTEXT_COLS = {"Isolate ID", "Species", "Organism", "Country", "Year"}
+
+CONTEXT_COLS = {
+    "Isolate ID", "Isolate",    # cover both column names
+    "Age",                      # drop numeric age
+    "Species", "Organism",
+    "Country", "Year"
+}
 
 def detect_numeric_mic_cols(df: pd.DataFrame) -> list[str]:
     """Return column names that look like numeric MIC values."""
