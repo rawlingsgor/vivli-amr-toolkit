@@ -39,6 +39,10 @@ def ingest_one_excel(path, vendor):
     df = df.rename(columns=rename, errors="ignore")
     required = {"organism","drug","mic","country","year"}
     missing  = required - set(df.columns)
+ if missing == {"drug", "mic"}:
+        print(f"[!] SKIP {vendor}: wide format (no drug/mic columns)")
+        return
+
     if missing: raise ValueError(f"{vendor}: missing {missing}")
     df["susceptibility"] = df.apply(mic_to_sir, axis=1)
     PROC_FOLDER.mkdir(exist_ok=True)
