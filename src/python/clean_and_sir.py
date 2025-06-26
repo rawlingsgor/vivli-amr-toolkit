@@ -52,17 +52,31 @@ def mic_to_sir(row):
 def normalise(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
-        # lowercase, strip, remove "_mic" suffix, apply synonym map
+    # lowercase + strip + remove unwanted suffixes
     df["organism"] = (
-        df["organism"].str.lower().str.strip()
+        df["organism"]
+        .str.lower().str.strip()
+        .str.replace(r"[-].*$", "", regex=True)             # drop complex suffixes
         .replace(ORGANISM_MAP)
     )
-    df["drug"] = (
-        df["drug"].str.lower().str.strip()
-        .str.replace(r"_mic$", "", regex=True)
-        .replace(DRUG_MAP)
-    )
 
+    # lowercase, strip, drop trivial columns, strip "_mic"
+    df["drug"] = (
+        df["drug"]
+        .str.lower().str.strip()
+        .replace({"isolate": None, "age": None})             # drop these
+        .dropna()
+        .str.replace(r"_mic$", "", regex=True)
+        .replace({
+            **DRUG_MAP,
+            "caz": "ceftazidime",
+            "fep": "cefepime",
+            "gm":  "gentamicin",
+            "mem": "meropenem",
+            "tzp": "piperacillin+tazobactam",
+            "lvx": "levofloxacin",
+        })
+    )
 
     # ensure isolate_id exists
     if "isolate_id" not in df.columns:
@@ -72,6 +86,7 @@ def normalise(df: pd.DataFrame) -> pd.DataFrame:
     df["mic"] = pd.to_numeric(df["mic"], errors="coerce")
 
     return df
+        
 
 # ---------------------------------------------------------------------
 def main():
