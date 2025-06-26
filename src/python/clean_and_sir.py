@@ -52,9 +52,17 @@ def mic_to_sir(row):
 def normalise(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
 
-    # lower-case + strip
-    df["organism"] = df["organism"].str.lower().str.strip().replace(ORGANISM_MAP)
-    df["drug"]     = df["drug"].str.lower().str.strip().replace(DRUG_MAP)
+        # lowercase, strip, remove "_mic" suffix, apply synonym map
+    df["organism"] = (
+        df["organism"].str.lower().str.strip()
+        .replace(ORGANISM_MAP)
+    )
+    df["drug"] = (
+        df["drug"].str.lower().str.strip()
+        .str.replace(r"_mic$", "", regex=True)
+        .replace(DRUG_MAP)
+    )
+
 
     # ensure isolate_id exists
     if "isolate_id" not in df.columns:
