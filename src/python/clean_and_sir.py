@@ -42,16 +42,25 @@ def mic_to_sir(row):
     key = f"{row.organism}||{row.drug}"
     if key not in BP.index:
         return pd.NA
+
     s_max = BP.at[key, "susceptible_MIC_max"]
     r_min = BP.at[key, "resistant_MIC_min"]
     mic   = row.mic
+
     if pd.isna(mic):
         return pd.NA
+
+    # Susceptible if MIC ≤ S_max
     if mic <= s_max:
         return "S"
-    if pd.notna(r_min) and mic >= r_min:
-        return "R"
-    return "I"
+
+    # If EUCAST gives an R_min, use it
+    if pd.notna(r_min):
+        return "R" if mic >= r_min else "I"
+
+    # FALLBACK: if no R_min, call R when MIC > 4 × S_max, else I
+    return "R" if mic > (4 * s_max) else "I"
+
 
 # ---------------------------------------------------------------------
 def normalise(df: pd.DataFrame) -> pd.DataFrame:
