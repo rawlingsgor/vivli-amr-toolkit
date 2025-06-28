@@ -17,8 +17,8 @@ KEEP = {
     "atlas_antibiotics_long.parquet",
     "atlas_antifungals_long.parquet",
     "gears_long.parquet",
-    "sidero-wt_long.parquet",
     "keystone_long.parquet",
+    # sidero-wt_long.parquet has no organism column → excluded for now
 }
 
 pairs: set[tuple[str, str]] = set()
