@@ -23,3 +23,8 @@ plots = {
 choice = st.selectbox("Select organism–drug combo:", list(plots.keys()))
 img = Image.open(plots[choice])
 st.image(img, use_column_width=True)
+st.image(Image.open(img_path), use_column_width=True)
+
+# 1-line insight
+st.caption(takeaways[choice])          # ← this line
+
