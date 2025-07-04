@@ -2905,3 +2905,31 @@ yersinia enterocolitica,levofloxacin,yersinia enterocolitica,levofloxacin
 yersinia enterocolitica,omadacycline,yersinia enterocolitica,eravacycline
 yersinia enterocolitica,study year,yersinia enterocolitica,study year
 yersinia enterocolitica,tigecycline,yersinia enterocolitica,tigecycline
+a. baumannii,polymyxin b mic (mcg/ml),Acinetobacter baumannii,Polymyxin B
+e. coli,polymyxin b mic (mcg/ml),Escherichia coli,Polymyxin B
+k. pneumoniae,polymyxin b mic (mcg/ml),Klebsiella pneumoniae,Polymyxin B
+klebsiella spp.,polymyxin b mic (mcg/ml),Klebsiella species,Polymyxin B
+m. tuberculosis,ami,Mycobacterium tuberculosis,Amikacin
+m. tuberculosis,bdq broth,Mycobacterium tuberculosis,Bedaquiline
+m. tuberculosis,cap,Mycobacterium tuberculosis,Capreomycin
+m. tuberculosis,cfz,Mycobacterium tuberculosis,Clofazimine
+m. tuberculosis,emb,Mycobacterium tuberculosis,Ethambutol
+m. tuberculosis,inh,Mycobacterium tuberculosis,Isoniazid
+m. tuberculosis,kan,Mycobacterium tuberculosis,Kanamycin
+m. tuberculosis,lvx,Mycobacterium tuberculosis,Levofloxacin
+m. tuberculosis,lzd,Mycobacterium tuberculosis,Linezolid
+m. tuberculosis,ofx,Mycobacterium tuberculosis,Ofloxacin
+p. aeruginosa,polymyxin b mic (mcg/ml),Pseudomonas aeruginosa,Polymyxin B
+pseudomonas spp.,polymyxin b mic (mcg/ml),Pseudomonas species,Polymyxin B
+streptococcus pneumoniae,amc,streptococcus pneumoniae,Amoxicillin + Clavulanic acid
+streptococcus pneumoniae,amp,streptococcus pneumoniae,Ampicillin
+streptococcus pneumoniae,amx,streptococcus pneumoniae,Amoxicillin
+streptococcus pneumoniae,azm,streptococcus pneumoniae,Azithromycin
+streptococcus pneumoniae,cec,streptococcus pneumoniae,Cefaclor
+streptococcus pneumoniae,cxm,streptococcus pneumoniae,Cefuroxime
+streptococcus pneumoniae,din,streptococcus pneumoniae,Cefdinir
+streptococcus pneumoniae,fix,streptococcus pneumoniae,Cefixime
+streptococcus pneumoniae,lev,streptococcus pneumoniae,Levofloxacin
+streptococcus pneumoniae,mxf,streptococcus pneumoniae,Moxifloxacin
+streptococcus pneumoniae,pod,streptococcus pneumoniae,Cefpodoxime
+streptococcus pneumoniae,sxt,streptococcus pneumoniae,Trimethoprim + Sulfamethoxazole (Co-trimoxazole)
