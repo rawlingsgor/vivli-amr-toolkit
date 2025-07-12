@@ -2,37 +2,53 @@
 """
 apply_breakpoints.py
 
-Helper functions to apply EUCAST clinical breakpoints (2024 subset) to
-MIC data and generate S/I/R interpretations.
-
-Extend `eucast_table` with additional (organism, drug) pairs as needed.
+EUCAST breakpoint helper (2024 subset).
+Extend `eucast_table` with additional organism–drug pairs as needed.
 """
 
 import re
 import pandas as pd
 
 # --------------------------------------------------------------------
-# EUCAST 2024 – starter table
-# Keys are lowercase, snake_case
-# Values: {"s": S breakpoint (≤), "r": R breakpoint (>)}
+# EUCAST 2024 – expanded table
+# Keys: (organism_key, drug_key) → {"s": S breakpoint (≤), "r": R breakpoint (>)}
+# Values in mg/L.  Add more pairs as your analysis demands.
 # --------------------------------------------------------------------
 eucast_table = {
     # Gram-negative
-    ("escherichia_coli", "amikacin"):        {"s": 8,   "r": 16},
-    ("escherichia_coli", "cefepime"):        {"s": 1,   "r": 4},
-    ("pseudomonas_aeruginosa", "amikacin"):  {"s": 8,   "r": 16},
+    ("escherichia_coli",       "amikacin"):       {"s": 8,      "r": 16},
+    ("escherichia_coli",       "cefepime"):       {"s": 1,      "r": 4},
+    ("escherichia_coli",       "levofloxacin"):   {"s": 0.5,    "r": 1},
+    ("escherichia_coli",       "tigecycline"):    {"s": 0.5,    "r": 0.5},
+
+    ("klebsiella_pneumoniae",  "levofloxacin"):   {"s": 0.5,    "r": 1},
+    ("klebsiella_pneumoniae",  "tigecycline"):    {"s": 0.5,    "r": 0.5},
+
+    ("pseudomonas_aeruginosa", "amikacin"):       {"s": 8,      "r": 16},
+    ("pseudomonas_aeruginosa", "levofloxacin"):   {"s": 0.5,    "r": 1},
+    ("pseudomonas_aeruginosa", "tigecycline"):    {"s": 0.5,    "r": 0.5},
 
     # Gram-positive
-    ("staphylococcus_aureus", "vancomycin"): {"s": 2,   "r": 2},
+    ("staphylococcus_aureus",  "vancomycin"):     {"s": 2,      "r": 2},
+    ("staphylococcus_aureus",  "levofloxacin"):   {"s": 1,      "r": 2},
+    ("staphylococcus_aureus",  "tigecycline"):    {"s": 0.25,   "r": 0.5},
 
-    # Candida albicans – echinocandins & azoles
-    ("candida_albicans", "anidulafungin"):   {"s": 0.03, "r": 0.06},
-    ("candida_albicans", "caspofungin"):     {"s": 0.06, "r": 0.12},
-    ("candida_albicans", "micafungin"):      {"s": 0.03, "r": 0.06},
-    ("candida_albicans", "fluconazole"):     {"s": 2,    "r": 4},
-    ("candida_albicans", "itraconazole"):    {"s": 0.125,"r": 0.25},
-    ("candida_albicans", "voriconazole"):    {"s": 0.125,"r": 0.25},
-    ("candida_albicans", "posaconazole"):    {"s": 0.125,"r": 0.25},
+    ("enterococcus_faecalis",  "tigecycline"):    {"s": 0.25,   "r": 0.25},
+
+    # Candida albicans (echinocandins & azoles)
+    ("candida_albicans", "anidulafungin"):         {"s": 0.03,   "r": 0.06},
+    ("candida_albicans", "caspofungin"):           {"s": 0.06,   "r": 0.12},
+    ("candida_albicans", "micafungin"):            {"s": 0.03,   "r": 0.06},
+    ("candida_albicans", "fluconazole"):           {"s": 2,      "r": 4},
+    ("candida_albicans", "itraconazole"):          {"s": 0.125,  "r": 0.25},
+    ("candida_albicans", "voriconazole"):          {"s": 0.125,  "r": 0.25},
+    ("candida_albicans", "posaconazole"):          {"s": 0.125,  "r": 0.25},
+
+    # Candida glabrata
+    ("candida_glabrata", "fluconazole"):           {"s": 32,     "r": 32},
+    ("candida_glabrata", "anidulafungin"):         {"s": 0.03,   "r": 0.06},
+    ("candida_glabrata", "caspofungin"):           {"s": 0.06,   "r": 0.12},
+    ("candida_glabrata", "micafungin"):            {"s": 0.03,   "r": 0.06},
 }
 
 # --------------------------------------------------------------------
@@ -40,29 +56,17 @@ eucast_table = {
 # --------------------------------------------------------------------
 def _clean_key(text: str) -> str:
     """
-    Lowercase, replace spaces with underscores, and strip trailing
-    suffixes like '_clsi' or '_eucast'.
+    Lowercase; replace spaces with underscores; strip trailing
+    '_clsi', '_(clsi)', '_eucast', or '_(eucast)'.
     """
     text = str(text).strip().lower().replace(" ", "_")
-    return re.sub(r"_(clsi|eucast)$", "", text)
+    text = re.sub(r"_\(?(clsi|eucast)\)?$", "", text)
+    return text
 
 def apply_eucast(mic, organism, drug):
     """
-    Return 'S', 'I', 'R', or None (if no breakpoint available or bad MIC).
-
-    Parameters
-    ----------
-    mic : float or str
-        MIC value (numeric or string like '<=0.5', '>32').
-    organism : str
-        Organism name (any case/spaces ok).
-    drug : str
-        Drug name (any case/spaces ok).
-
-    Notes
-    -----
-    • EUCAST defines I as between S and R thresholds.
-    • MIC values '>32' use numeric part (32) for comparison.
+    Return 'S', 'I', 'R', or None if no breakpoint or bad MIC.
+    MIC may be numeric or a string like '<=0.5' or '>32'.
     """
     if pd.isna(mic) or pd.isna(organism) or pd.isna(drug):
         return None
@@ -70,7 +74,6 @@ def apply_eucast(mic, organism, drug):
     org_key  = _clean_key(organism)
     drug_key = _clean_key(drug)
 
-    # Extract numeric MIC
     try:
         mic_val = float(re.sub(r"[<>]=?", "", str(mic)))
     except ValueError:
@@ -78,7 +81,7 @@ def apply_eucast(mic, organism, drug):
 
     bp = eucast_table.get((org_key, drug_key))
     if not bp:
-        return None  # breakpoint not defined
+        return None
 
     if mic_val <= bp["s"]:
         return "S"
@@ -90,7 +93,7 @@ def apply_eucast(mic, organism, drug):
 def add_eucast_column(df, mic_col="mic", org_col="cls_i_organism",
                       drug_col="drug", new_col="sir_eucast"):
     """
-    Return a copy of *df* with an added column of EUCAST S/I/R calls.
+    Return a copy of df with a new EUCAST S/I/R interpretation column.
     """
     out = df.copy()
     out[new_col] = out.apply(
