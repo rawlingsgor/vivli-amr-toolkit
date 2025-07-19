@@ -48,5 +48,5 @@ def test_resistant_not_all_nan():
     At least one row in the antibiotics fixture must have a non-NaN 'resistant'.
     """
     df_long = clean_atlas(ABX_FIX)
- main
+    
     assert df_long["resistant"].notna().any()
