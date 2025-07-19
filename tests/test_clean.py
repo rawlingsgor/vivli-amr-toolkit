@@ -1,5 +1,8 @@
 from src.cleaning.atlas_clean import clean_atlas
 
+ABX_FIX = "tests/fixtures/atlas_antibiotics_fixture.xlsx"
+AFG_FIX = "tests/fixtures/atlas_antifungals_fixture.xlsx"
+
 def test_clean_has_required_columns():
     df_long = clean_atlas("data/raw/ATLAS_Antibiotics/2025_03_11 atlas_antibiotics.xlsx")
     assert {"drug", "mic_value", "sir_flag", "resistant"}.issubset(df_long.columns)
