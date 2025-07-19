@@ -34,6 +34,7 @@ def test_country_not_null():
 
 def test_resistant_not_all_nan():
     """
+ clean_slate
     Ensure at least one non-NaN label unless the fixture contains
     zero S/I/R flag columns (skip in that edge-case).
     """
@@ -43,4 +44,9 @@ def test_resistant_not_all_nan():
     if df_long["sir_flag"].isna().all():
         pytest.skip("Fixture lacks S/I/R flag columns")
 
+
+    At least one row in the antibiotics fixture must have a non-NaN 'resistant'.
+    """
+    df_long = clean_atlas(ABX_FIX)
+ main
     assert df_long["resistant"].notna().any()
