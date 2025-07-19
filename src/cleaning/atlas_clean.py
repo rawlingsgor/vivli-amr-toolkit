@@ -81,6 +81,17 @@ def unpivot_atlas(df: pd.DataFrame) -> pd.DataFrame:
         on=meta_cols + ["drug"],
         how="left"
     )
+    
+    df_long["sir_flag"] = (
+        df_long["sir_flag"]
+            .str.strip()
+            .str.upper()                     # e.g. 'Susceptible' -> 'SUSCEPTIBLE'
+            .replace({
+                "SUSCEPTIBLE":  "S",
+                "RESISTANT":    "R",
+                "INTERMEDIATE": "I"
+            })
+    )   
 
     # Derive binary label: R→1, S→0, else NaN
     df_long["resistant"] = df_long["sir_flag"].map({"R": 1, "S": 0})
