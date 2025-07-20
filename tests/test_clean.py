@@ -44,3 +44,4 @@ def test_resistant_not_all_nan():
         pytest.skip("Fixture lacks S/I/R flag columns")
 
     assert df_long["resistant"].notna().any()
+
