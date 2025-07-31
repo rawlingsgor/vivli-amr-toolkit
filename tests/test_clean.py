@@ -42,5 +42,12 @@ def test_resistant_not_all_nan():
     # Skip if fixture has no S/I/R data at all
     if df_long["sir_flag"].isna().all():
         pytest.skip("Fixture lacks S/I/R flag columns")
+clean_slate_fixed
 
     assert df_long["resistant"].notna().any()
+
+    clean_slate
+
+    assert df_long["resistant"].notna().any()
+
+main
