@@ -103,7 +103,10 @@ def load_first_sheet(xlsx: Path) -> tuple[pd.DataFrame, str]:
 # ---------------------------------------------------------------------------
 # Core cleaner
 # ---------------------------------------------------------------------------
-def clean_atlas(xlsx: Path) -> pd.DataFrame:
+
+def clean_atlas(xlsx: str | Path) -> pd.DataFrame:
+    xlsx = Path(xlsx) 
+
     """Return cleaned long DataFrame from an ATLAS workbook."""
     df, sheet = load_first_sheet(xlsx)
 
